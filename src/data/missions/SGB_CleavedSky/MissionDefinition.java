@@ -68,14 +68,16 @@ public class MissionDefinition implements MissionDefinitionPlugin {
 		// Set up the enemy fleet.
 		api.addToFleet(FleetSide.ENEMY, "SGB_Ductility_2_Attack", FleetMemberType.SHIP, false).getCaptain().setPersonality(Personalities.AGGRESSIVE);
 		api.addToFleet(FleetSide.ENEMY, "SGB_Ductility_2_DogFight", FleetMemberType.SHIP, false).getCaptain().setPersonality(Personalities.AGGRESSIVE);
-		api.addToFleet(FleetSide.ENEMY, "SGB_Ductility_Attack", FleetMemberType.SHIP, false).getCaptain().setPersonality(Personalities.AGGRESSIVE);
+		//api.addToFleet(FleetSide.ENEMY, "SGB_Ductility_Attack", FleetMemberType.SHIP, false).getCaptain().setPersonality(Personalities.AGGRESSIVE);
 		api.addToFleet(FleetSide.ENEMY, "SGB_Ductility_Assault", FleetMemberType.SHIP, false).getCaptain().setPersonality(Personalities.AGGRESSIVE);
+		api.addToFleet(FleetSide.ENEMY, "SGB_Ductility_Coop", FleetMemberType.SHIP, false).getCaptain().setPersonality(Personalities.AGGRESSIVE);
 		api.addToFleet(FleetSide.ENEMY, "SGB_Ductility_Coop", FleetMemberType.SHIP, false).getCaptain().setPersonality(Personalities.AGGRESSIVE);
 
 		api.addToFleet(FleetSide.ENEMY, "SGB_Anvil_Coop", FleetMemberType.SHIP, false).getCaptain().setPersonality(Personalities.AGGRESSIVE);
 		api.addToFleet(FleetSide.ENEMY, "SGB_Anvil_Coop", FleetMemberType.SHIP, false).getCaptain().setPersonality(Personalities.AGGRESSIVE);
+		api.addToFleet(FleetSide.ENEMY, "SGB_Anvil_Coop", FleetMemberType.SHIP, false).getCaptain().setPersonality(Personalities.AGGRESSIVE);
 		api.addToFleet(FleetSide.ENEMY, "SGB_Anvil_Attack", FleetMemberType.SHIP, false).getCaptain().setPersonality(Personalities.AGGRESSIVE);
-		api.addToFleet(FleetSide.ENEMY, "SGB_Anvil_Attack", FleetMemberType.SHIP, false).getCaptain().setPersonality(Personalities.AGGRESSIVE);
+		//api.addToFleet(FleetSide.ENEMY, "SGB_Anvil_Attack", FleetMemberType.SHIP, false).getCaptain().setPersonality(Personalities.AGGRESSIVE);
 
 		api.addToFleet(FleetSide.ENEMY, "SGB_Ascaedy_Assault", FleetMemberType.SHIP, false).getCaptain().setPersonality(Personalities.AGGRESSIVE);
 		api.addToFleet(FleetSide.ENEMY, "SGB_Aligate_Assault", FleetMemberType.SHIP, false).getCaptain().setPersonality(Personalities.AGGRESSIVE);

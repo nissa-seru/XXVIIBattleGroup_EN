@@ -124,7 +124,7 @@ OR
 The communication link was cut off before you responded.",,
 ,,,,,,
 aiCores_turnInOptionSelSGB,DialogOptionSelected,"$option == aiCores_startTurnIn
-$faction.id == plsp",FireAll PopulateCoresTurnInOptions,"""You can't just hang around with this thing outside! If you come across any, please hand it over to us, and we will take care of it carefully.""
+$faction.id == SGB",FireAll PopulateCoresTurnInOptions,"""You can't just hang around with this thing outside! If you come across any, please hand it over to us, and we will take care of it carefully.""
 OR
 ""AI core? This is a very dangerous thing, and I hope you can hand it over to us for your consideration.""",,
 aiCores_turnInResponseSGB,AICoresTurnedIn,$faction.id == SGB,FireAll PopulateOptions,"""Outstanding decision, comrade $playerName. The group will not forget your contribution。"" $personRank of Shackles Garrison gave you a standard military salute.

@@ -1,20 +1,24 @@
 {
 	"id":"SGB_EN",
 	"name":"Shackles Garrison - XXVIIBattleGroup",
-	"author":"Yisic[Diling]",
+	"author":"Main:Yisic[Diling] \nProofreading:Myco",
 	"version":{"major":0, "minor":9, "patch":2},
-	"description":"Shackles Garrison is a battle group which once considered disconnected, and holding ships using the Midline ways. Shackles Garrison did not care about the Domain is the legitimate actual rulers like the hegemony - because they are not being find after they are lost after the Collapse; They also do not want to use the power to solve problems in the beginning, since cooperate is the way to solve conflict. But for the chaotic Perseus, standing the line not absolutely is absolutely not standing in line; After a series of small and large local conflicts, the 27 battle group eventually became even more sunken, but the radical faction was always ready to use terrorism to seek revenge",
+	"description":"Shackles Garrison is a battle group which once considered disconnected, and holding ships using the Midline ways. \nShackles Garrison did not care about the Domain is the legitimate actual rulers like the hegemony - because they are not being find after they are lost after the Collapse; They also do not want to use the power to solve problems in the beginning, since cooperate is the way to solve conflict. But for the chaotic Perseus, standing the line not absolutely is absolutely not standing in line; After a series of small and large local conflicts, the 27 battle group eventually became even more sunken, but the radical faction was always ready to use terrorism to seek revenge.\nBGMs From:\nLuxury Elite - daphne\nLuxury Elite - Mall Madness\nLuxury Elite - Wave\nSky Gamblers: Storm Raiders ",
 	"gameVersion":"0.96a-RC10",
 	"jars":["jars/XXVIIBattleGroup.jar"],
 	"dependencies": [
 		{
             "id": "lw_lazylib",
-            "name": "LazyLib",
+            "name": "LazyLib"
         },
     	{
     		"id": "MagicLib",
-    		"name": "MagicLib",
-    	}
+    		"name": "MagicLib"
+    	},
+		{
+			"id": "nexerelin",
+			"name": "Better Having Nexerelin"
+		}
     ],
 	"modPlugin":"data.scripts.SGBModPlugin"
 	

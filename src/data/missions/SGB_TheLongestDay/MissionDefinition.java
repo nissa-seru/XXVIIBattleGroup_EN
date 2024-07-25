@@ -59,8 +59,8 @@ public class MissionDefinition implements MissionDefinitionPlugin {
 		api.addBriefingItem(txt("Mission_TheLongestDay_BriefingItem3"));
 		 */
 
-		api.setFleetTagline(FleetSide.PLAYER, "Andelon & Erubolie and SGB Evacuation Fleet - Remnants of the Transport Escort");
-		api.setFleetTagline(FleetSide.ENEMY, "Unknown bounty team?- Even ghosts know it's those damn Tritachyon bastards");
+		api.setFleetTagline(FleetSide.PLAYER, "Andelon & Erubolie and SGB Evacuation Fleet Remnants");
+		api.setFleetTagline(FleetSide.ENEMY, "Unknown bounty team? - Those damn Tritachyon bastards");
 
 		api.addBriefingItem("Tip: Your flagship is a very special ship and also your own warship - do not die;");
 		//Don't be obsessed with war, prioritize ensuring your own evacuation;

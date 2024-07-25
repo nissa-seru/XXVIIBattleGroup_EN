@@ -99,7 +99,7 @@ public class MissionDefinition implements MissionDefinitionPlugin {
 		api.addToFleet(FleetSide.ENEMY, "aurora_Retaliate", FleetMemberType.SHIP, false).getCaptain().setPersonality(Personalities.AGGRESSIVE);
 		api.addToFleet(FleetSide.ENEMY, "aurora_Retaliate", FleetMemberType.SHIP, false).getCaptain().setPersonality(Personalities.AGGRESSIVE);
 		api.addToFleet(FleetSide.ENEMY, "aurora_Retaliate", FleetMemberType.SHIP, false).getCaptain().setPersonality(Personalities.AGGRESSIVE);
-		api.addToFleet(FleetSide.ENEMY, "aurora_Retaliate", FleetMemberType.SHIP, false).getCaptain().setPersonality(Personalities.AGGRESSIVE);
+		//api.addToFleet(FleetSide.ENEMY, "aurora_Retaliate", FleetMemberType.SHIP, false).getCaptain().setPersonality(Personalities.AGGRESSIVE);
 
 		api.addToFleet(FleetSide.ENEMY, "hyperion_Strike", FleetMemberType.SHIP, false);
 		api.addToFleet(FleetSide.ENEMY, "hyperion_Strike", FleetMemberType.SHIP, false);
