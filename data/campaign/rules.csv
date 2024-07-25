@@ -137,7 +137,7 @@ Before you left, $personRank stopped you, and then said, ""$playerName comrade, 
 OR
 ""Outstanding decision, comrade $playerName. The group will not forget your contribution。"" $personRank of Shackles Garrison gave you a standard military salute.
 
-Before you left, $personRank stopped you, and then said, ""$playerName comrade, this is exactly what sets us apart from those scattered pieces of tritachyon hyenas.""
+Before you left, $personRank stopped you, and then said, ""$playerName comrade, this is exactly what sets us apart from those scattered pieces of Tri-Tachyon hyenas.""
 OR
 ""Outstanding decision, comrade $playerName. The group will not forget your contribution。"" $personRank of Shackles Garrison gave you a standard military salute.
 
@@ -173,7 +173,7 @@ People are drunk and celebrating, and you do not know when will this scene havin
 ,,,,,,
 flavorTextMarketSGB,TradePanelFlavorText,"$global.tradePanelMode == MARKET
 $faction.id == SGB","AddText ""The surface doesn't look as militarized as one might expect; rather, the opposite. While the environment here is not top-notch, if you are willing to head to the central area, you will discover a plethora of flashy markets, massive commercial districts, and clubs that cater to entertainment until death. This place has what most places have, just more concentrated."" marketFlavorTextColor
-AddText ""You entered a special reception area - this is a window specifically prepared for foreign captains. The staff did not hand you the familiar Tripad, but a list."" marketFlavorTextColor
+AddText ""You entered a special reception area - this is a window specifically prepared for foreign captains. The staff did not hand you the familiar Tri-Pad, but a list."" marketFlavorTextColor
 AddText ""Above there are items that can be traded."" marketFlavorTextColor",,,
 flavorTextMarketSGBCore,TradePanelFlavorText,"$global.tradePanelMode == MARKET
 $faction.id == SGB

@@ -60,7 +60,7 @@ public class MissionDefinition implements MissionDefinitionPlugin {
 		 */
 
 		api.setFleetTagline(FleetSide.PLAYER, "Andelon & Erubolie and SGB Evacuation Fleet Remnants");
-		api.setFleetTagline(FleetSide.ENEMY, "Unknown bounty team? - Those damn Tritachyon bastards");
+		api.setFleetTagline(FleetSide.ENEMY, "Unknown bounty team? - Those damn Tri-Tachyon bastards");
 
 		api.addBriefingItem("Tip: Your flagship is a very special ship and also your own warship - do not die;");
 		//Don't be obsessed with war, prioritize ensuring your own evacuation;
