@@ -1,0 +1,78 @@
+{
+  "variantId": "SGB_Anvil_Assault",
+  "hullId": "SGB_Anvil",
+  "displayName": "Assault",
+  "goalVariant": true,
+  "fluxCapacitors": 22,
+  "fluxVents": 4,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "ballistic_rangefinder",
+    "missleracks",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0020": "devastator"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0002": "typhoon",
+        "WS0003": "typhoon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "XXVII_den_Anvil_M"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0018": "XXVII_den_Anvil_L",
+        "WS0019": "XXVII_den_Anvil_R"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "lightneedler",
+        "WS0007": "lightneedler",
+        "WS0008": "lightneedler",
+        "WS0009": "lightneedler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0010": "lightag",
+        "WS0011": "lightag"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0004": "heavymortar",
+        "WS0005": "heavymortar"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "SGB_Agatha_wing",
+    "SGB_Ares_wing"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+	"id":"XXVII_flak_Felix",
+	"type":"WEAPON",
+	"aiType":"CANISTER_FLAK",
+	
+	"weaponDataId":"XXVII_flak_Felix",
+	"outOfUsesSound":"gun_out_of_ammo",
+}

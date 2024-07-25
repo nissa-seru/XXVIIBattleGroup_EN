@@ -1,0 +1,86 @@
+{
+    "displayName": "BoundLeader",
+    "fluxCapacitors": 30,
+    "fluxVents": 30,
+    "goalVariant": false,
+    "hullId": "paragon",
+    "hullMods": [
+        "degraded_life_support",
+        "degraded_drive_field",
+        "degraded_engines",
+        "hardened_subsystems",
+        "auxiliarythrusters",
+        "turretgyros",
+        "fluxdistributor",
+        "frontemitter",
+        "advancedoptics",
+        "missleracks"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "paragon_LongWay",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "hil",
+                "WS 002": "hil"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 012": "reaper",
+                "WS 014": "reaper",
+                "WS 018": "reaper",
+                "WS 020": "reaper"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "tachyonlance",
+                "WS 004": "tachyonlance"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "gravitonbeam",
+                "WS 006": "gravitonbeam",
+                "WS 011": "taclaser",
+                "WS 017": "taclaser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 013": "taclaser",
+                "WS 019": "taclaser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 007": "phasecl",
+                "WS 008": "phasecl"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 009": "pdlaser",
+                "WS 010": "pdlaser",
+                "WS 016": "pdlaser",
+                "WS 022": "pdlaser"
+            }
+        }
+    ]
+}

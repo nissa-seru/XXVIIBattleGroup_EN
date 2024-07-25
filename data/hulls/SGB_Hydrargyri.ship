@@ -1,0 +1,281 @@
+{
+  "hullName": "SGB_Hydrargyri",
+  "hullId": "SGB_Hydrargyri",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/SGB_hydrargyri.png",
+  "style": "SGB_TECH",
+  "height": 161,
+  "width": 134,
+  "center": [67, 80.5],
+  "collisionRadius": 119,
+  "shieldCenter": [-8, -0],
+  "shieldRadius": 108.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "SGB_AllForHuman",
+    "do_not_back_off"
+  ],
+  "builtInWeapons": {
+    "VENT1": "blinker_green",
+    "VENT2": "blinker_green",
+    "VENT3": "blinker_red",
+    "VENT4": "blinker_red",
+    "VENT5": "blinker_red",
+    "VENT6": "blinker_red"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 283,
+      "angle": 0,
+      "locations": [-23.5, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 156,
+      "angle": 45,
+      "locations": [6.5, 20]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 156,
+      "angle": -45,
+      "locations": [6.5, -20]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 169,
+      "angle": -81,
+      "locations": [-25.5, -26]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 169,
+      "angle": 81,
+      "locations": [-25.5, 26]
+    },
+    {
+      "id": "VENT1",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [39, 29.5]
+    },
+    {
+      "id": "VENT2",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [39, -29.5]
+    },
+    {
+      "id": "VENT3",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [30, 33.5]
+    },
+    {
+      "id": "VENT4",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [30, -33.5]
+    },
+    {
+      "id": "VENT5",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [19, 38.5]
+    },
+    {
+      "id": "VENT6",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [19, -38.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-87.5, -0],
+      "length": 2,
+      "width": 35,
+      "angle": 180,
+      "contrailSize": 35,
+      "style": "SGB_TECH"
+    },
+    {
+      "location": [-68.5, -13.5],
+      "length": 3,
+      "width": 21,
+      "angle": 90,
+      "contrailSize": 21,
+      "style": "SGB_TECH_GREEN"
+    },
+    {
+      "location": [-68.5, 13.5],
+      "length": 3,
+      "width": 21,
+      "angle": -90,
+      "contrailSize": 21,
+      "style": "SGB_TECH_GREEN"
+    },
+    {
+      "location": [-79.5, 4.5],
+      "length": 8.797135,
+      "width": 18.178053,
+      "angle": -152.5,
+      "contrailSize": 18.178053,
+      "style": "SGB_TECH_QUAD"
+    },
+    {
+      "location": [-79.5, -4.5],
+      "length": 8.797135,
+      "width": 18.178053,
+      "angle": 152.5,
+      "contrailSize": 18.178053,
+      "style": "SGB_TECH_QUAD"
+    },
+    {
+      "location": [-69.5, -0],
+      "length": 50,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "SGB_TECH"
+    },
+    {
+      "location": [-70.5, -26],
+      "length": 12,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "SGB_TECH"
+    },
+    {
+      "location": [-70.5, 26],
+      "length": 12,
+      "width": 4,
+      "angle": -180,
+      "contrailSize": 4,
+      "style": "SGB_TECH"
+    },
+    {
+      "location": [-37, -58.5],
+      "length": 28.770605,
+      "width": 10.817082,
+      "angle": 161.5,
+      "contrailSize": 10.817082,
+      "style": "SGB_TECH_GREEN"
+    },
+    {
+      "location": [-37, 58.5],
+      "length": 28.770605,
+      "width": 10.817082,
+      "angle": -161.5,
+      "contrailSize": 10.817082,
+      "style": "SGB_TECH_GREEN"
+    },
+    {
+      "location": [-93.5, -0],
+      "length": 2,
+      "width": 27,
+      "angle": 180,
+      "contrailSize": 128,
+      "style": "SGB_TECH"
+    },
+    {
+      "location": [-90.5, -0],
+      "length": 2,
+      "width": 50,
+      "angle": -180,
+      "contrailSize": 128,
+      "style": "SGB_TECH"
+    },
+    {
+      "location": [24.5, -52.5],
+      "length": 5.8,
+      "width": 11.81,
+      "angle": -69.5,
+      "contrailSize": 128,
+      "style": "SGB_TECH_GREEN"
+    },
+    {
+      "location": [24.5, 52.5],
+      "length": 5.8,
+      "width": 11.81,
+      "angle": 69.5,
+      "contrailSize": 128,
+      "style": "SGB_TECH_GREEN"
+    },
+    {
+      "location": [-17.5, 62],
+      "length": 11.76,
+      "width": 5.74,
+      "angle": 128,
+      "contrailSize": 128,
+      "style": "LOW_TECH_FIGHTER"
+    },
+    {
+      "location": [-17.5, -62],
+      "length": 11.76,
+      "width": 5.74,
+      "angle": -128,
+      "contrailSize": 128,
+      "style": "LOW_TECH_FIGHTER"
+    }
+  ],
+  "bounds": [
+    -73.5, 4.5,
+    -60.5, 24.5,
+    -40, 41.5,
+    -28.5, 57.5,
+    5, 41.5,
+    19, 51.5,
+    49.5, 36.5,
+    56, 43,
+    72.5, 22.5,
+    61.5, 13,
+    29.5, 5,
+    29.5, -5,
+    61.5, -13,
+    72.5, -22.5,
+    56, -43,
+    49.5, -36.5,
+    19, -51.5,
+    5, -41.5,
+    -28.5, -57.5,
+    -40, -41.5,
+    -60.5, -24.5,
+    -73.5, -4.5
+  ]
+}

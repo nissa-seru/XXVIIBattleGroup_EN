@@ -1,0 +1,161 @@
+{
+  "hullName": "SGB_Buffalo",
+  "hullId": "SGB_Buffalo",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/buffalo_SGB.png",
+  "style": "SGB_TECH",
+  "height": 157,
+  "width": 112,
+  "center": [56, 65.5],
+  "collisionRadius": 112,
+  "shieldCenter": [10.5, 0],
+  "shieldRadius": 100,
+  "viewOffset": 0,
+  "builtInMods": [
+    "civgrade",
+    "heavyarmor"
+  ],
+  "builtInWeapons": {
+    "WS 003": "blinker_red",
+    "WS 004": "blinker_red",
+    "WS 005": "blinker_red",
+    "WS 006": "blinker_red",
+    "WS0001": "lights_buffalo"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS 001",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 0,
+      "locations": [69.5, -0]
+    },
+    {
+      "id": "WS 003",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 1,
+      "angle": 0,
+      "locations": [72, 37.5]
+    },
+    {
+      "id": "WS 004",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [72, -37.5]
+    },
+    {
+      "id": "WS 005",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-36.5, 36.5]
+    },
+    {
+      "id": "WS 006",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-36.5, -36.5]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [11.5, -0]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -12.5, -13.5,
+        -23, -21,
+        7, -21.5,
+        5.5, 14
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-60, 6.5],
+      "length": 48,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-60, -6.5],
+      "length": 48,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-58, 24.5],
+      "length": 48,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-58, -24.5],
+      "length": 48,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-59, 15.5],
+      "length": 48,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-59, -15.5],
+      "length": 48,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    74.5, -30.5,
+    56, -48,
+    -19, -45.5,
+    -27, -37,
+    -53.5, -27,
+    -53.5, 27,
+    -27, 37,
+    -19, 45.5,
+    56, 48,
+    74.5, 30.5,
+    76.5, 18,
+    84.5, 7,
+    84.5, -6.5,
+    76, -17.5
+  ]
+}

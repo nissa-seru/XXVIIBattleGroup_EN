@@ -1,0 +1,39 @@
+{
+  "variantId": "module_hightech_citadel_Retaliate",
+  "hullId": "module_hightech_citadel",
+  "displayName": "Standard",
+  "goalVariant": false,
+  "fluxCapacitors": 10,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "hardenedshieldemitter",
+    "targetingunit",
+    "stabilizedshieldemitter",
+    "extendedshieldemitter",
+    "magazines",
+    "autorepair",
+    "armoredweapons",
+    "advancedoptics"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 000": "tachyonlance",
+        "WS 001": "tachyonlance",
+        "WS 002": "gravitonbeam",
+        "WS 003": "ionbeam",
+        "WS 004": "sabot",
+        "WS 006": "gazer",
+        "WS 008": "sabot",
+        "WS 010": "harpoonpod",
+        "WS 012": "harpoonpod"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

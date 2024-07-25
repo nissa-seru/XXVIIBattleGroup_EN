@@ -1,0 +1,59 @@
+{
+    "plugins":{
+    },
+	
+    "designTypeColors":
+	{
+		"Shackles Garrison":[250,209,21,255],
+    },
+	"graphics":
+	{
+		"intel":
+		{
+			"SGB_SF_Erubolie":"graphics/portraits/SGB_SF_Erubolie.png",
+			"SGB_SF_Andelon":"graphics/portraits/SGB_SF_Andelon.png",
+			"SGB_Flag":"graphics/portraits/SGB_Flag.png",
+			"SGB_SF_Flag":"graphics/portraits/SGB_SF_Flag.png",
+			"TRI_ISS_Mercenaries":"graphics/portraits/TRI_ISS_Mercenaries.png",
+			"TRI_ISS_Leader":"graphics/portraits/TRI_ISS_Leader.png",
+			
+			"SGB_Commando":"graphics/portraits/SGB_Commando.png",
+			"SGB_Sentry":"graphics/portraits/SGB_Sentry.png",
+			"SGB_Veteran":"graphics/portraits/SGB_Veteran.png",
+			"SGB_Commando_SF":"graphics/portraits/SGB_Commando_SF.png",
+			"SGB_Sentry_SF":"graphics/portraits/SGB_Sentry_SF.png",
+			"SGB_Veteran_SF":"graphics/portraits/SGB_Veteran_SF.png"
+			
+		},
+		"illustrations":{
+			"SGB_Bar":"graphics/illustrations/SGB_Bar.png",
+		},
+	   "fx":{
+		   "SGB_plasma_red":"graphics/fx/SGB_plasma_red.png",
+		   "SGB_Lightning_beam":"graphics/fx/SGB_Lightning_beam.png",
+		   "SGB_Cloud_64":"graphics/fx/SGB_Cloud_64.png",
+		   "SGB_Sub_trail":"graphics/fx/SGB_Sub_trail.png",
+		   "SGB_Spark01A":"graphics/fx/SGB_Spark01A.png",
+		   "SGB_Spark01B":"graphics/fx/SGB_Spark01B.png",
+		   "SGB_Spark17A":"graphics/fx/SGB_Spark17A.png",
+
+		   "SGB_smoke_01":"graphics/fx/SGB_smoke_01.png",
+		   "SGB_smoke_1":"graphics/fx/SGB_smoke_1.png",
+		   "SGB_smoke_2":"graphics/fx/SGB_smoke_2.png",
+
+		   "SGB_firestreak_1":"graphics/fx/Flame/firestreak1.png",
+		   "SGB_Fire_01":"graphics/fx/Flame/impact_flame_1.png",
+		   "SGB_Fire_02":"graphics/fx/Flame/impact_flame_2.png",
+		   "SGB_Fire_03":"graphics/fx/Flame/impact_flame_3.png",
+		   "SGB_Fire_04":"graphics/fx/Flame/impact_flame_4.png",
+		   "SGB_Tex_Fire05A":"graphics/fx/Flame/Tex_Fire05A.png",
+		   "SGB_Tex_Fire05C":"graphics/fx/Flame/Tex_Fire05C.png",
+
+		   "SGB_AE_Wave":"graphics/fx/SGB_AE_Wave.png",
+		   "SGB_Wave":"graphics/fx/SGB_Wave.png"
+	},
+       "blueprint_packages":{
+			"SGB_package":"graphics/icons/cargo/SGB_package.png",
+		},		
+	}
+}

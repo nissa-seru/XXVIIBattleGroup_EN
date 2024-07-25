@@ -1,0 +1,41 @@
+{
+  "variantId": "SGB_Felix_d",
+  "hullId": "SGB_Felix",
+  "displayName": "Damaged",
+  "goalVariant": false,
+  "fluxCapacitors": 8,
+  "fluxVents": 2,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [
+    "eccm",
+    "auxiliarythrusters",
+    "armoredweapons"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "XXVII_den_Felix_L",
+        "WS0007": "XXVII_den_Felix_R"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "railgun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "lightag"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

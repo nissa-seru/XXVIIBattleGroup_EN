@@ -1,0 +1,53 @@
+{
+  "id": "SGB_ScrewsTwi",
+  "specClass": "projectile",
+  "projectileSpecId": "lightmg_shot",
+  "type": "BALLISTIC",
+  "size": "SMALL",
+  "displayArcRadius": 250,
+  "turretSprite": "graphics/weapons/Wing_System/SGB_ScrewsTwi_t.png",
+  "turretGunSprite": "graphics/weapons/Wing_System/SGB_ScrewsTwi_b.png",
+  "hardpointSprite": "graphics/weapons/Wing_System/SGB_ScrewsTwi_h.png",
+  "hardpointGunSprite": "graphics/weapons/Wing_System/SGB_ScrewsTwi_h_b.png",
+  "visualRecoil": 3,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [
+    13,
+    -2,
+    13,
+    2
+  ],
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    11,
+    -2,
+    11,
+    2
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "barrelMode": "ALTERNATING_BURST",
+  "animationType": "MUZZLE_FLASH",
+  "muzzleFlashSpec": {
+    "length": 20,
+    "spread": 6,
+    "particleSizeMin": 6,
+    "particleSizeRange": 8,
+    "particleDuration": 0.15,
+    "particleCount": 7,
+    "particleColor": [
+      255,
+      240,
+      165,
+      200
+    ]
+  },
+  "fireSoundTwo": "light_machinegun_fire"
+}

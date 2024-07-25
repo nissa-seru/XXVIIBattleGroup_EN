@@ -1,0 +1,43 @@
+{
+	"id":"XXVII_type_7_f_srm",
+	"specClass":"missile",
+	#"missileType":"FLARE_SEEKER",
+	"missileType":"MISSILE",
+	"onHitEffect":"data.weapons.SGB_Missile_Weapon_SPD",
+	"sprite":"graphics/missiles/XXVII_type_7_f_srm.png",
+	"size":[6,12],	
+	"center":[3,6],
+	"collisionRadius":10,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[255,165,50,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":25, # purely visual
+	"fadeTime":1, # fadeout duration
+	#"behaviorSpec":{"behavior":"CUSTOM",
+	#				"effectRange":100,
+	#				"effectChance":0.05,
+	#			   },
+	"engineSpec":{"turnAcc":200,
+				  "turnRate":300,
+				  "acc":2500,
+				  "dec":750},
+	"engineSlots":[{"id":"ES1",
+					"loc":[-6, 0],
+				    #"style":"MISSILE_MIDLINE",
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[180,255,155,255],
+						"contrailDuration":.5,
+						"contrailWidthMult":2,
+						"contrailWidthAddedFractionAtEnd":2,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":15, # min segment length, in pixels
+						"contrailMaxSpeedMult":.0f,
+						"contrailAngularVelocityMult":0.5f,
+						"contrailSpawnDistMult":.5, # how far away from engine it starts
+						"contrailColor":[180,255,155,100],
+						"type":"GLOW" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":4.0,
+				    "length":16.0,
+				    "angle":180.0}]
+}

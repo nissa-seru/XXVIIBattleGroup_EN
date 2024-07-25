@@ -1,0 +1,168 @@
+{
+  "hullName": "SGB_Austenite_Wingman_Ship",
+  "hullId": "SGB_Austenite_Wingman_Ship",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/SGB_Austenite/SGB_Wing/SGB_Austenite_Wing_M.png",
+  "style": "SGB_WING_TECH",
+  "height": 38,
+  "width": 20,
+  "center": [10, 19],
+  "collisionRadius": 50,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 49,
+  "viewOffset": 0,
+  "builtInMods": [
+    "SGB_AllForHuman"
+  ],
+  "builtInWeapons": {
+    "TOP": "SGB_Austenite_Wingman_M",
+    "WING_ENGINE_LEFT": "SGB_Austenite_Wingman_LB",
+    "WING_ENGINE_RIGHT": "SGB_Austenite_Wingman_RB",
+    "WING_LEFT": "SGB_Austenite_Wingman_L",
+    "WING_RIGHT": "SGB_Austenite_Wingman_R",
+    "WS0010": "blinker_red"
+  },
+  "weaponSlots": [
+    {
+      "id": "TOP",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [0, -0]
+    },
+    {
+      "id": "WING_LEFT",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 63,
+      "angle": 0,
+      "locations": [3, 7.5]
+    },
+    {
+      "id": "WING_RIGHT",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 63,
+      "angle": -0,
+      "locations": [3, -7.5]
+    },
+    {
+      "id": "WING_ENGINE_LEFT",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 24,
+      "angle": -4.5,
+      "locations": [-14, 8.5],
+      "renderOrderMod": 3
+    },
+    {
+      "id": "WING_ENGINE_RIGHT",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 24,
+      "angle": 4.5,
+      "locations": [-14, -8.5],
+      "renderOrderMod": 3
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [9, -8.5],
+      "renderOrderMod": -10
+    },
+    {
+      "id": "ROCKET_RIGHT",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -6.5,
+      "locations": [3.5, -20],
+      "renderOrderMod": -4
+    },
+    {
+      "id": "ROCKET_LEFT",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 6.5,
+      "locations": [3.5, 20],
+      "renderOrderMod": -4
+    },
+    {
+      "id": "WEAPON",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 10,
+      "angle": 0,
+      "locations": [3, -0],
+      "renderOrderMod": -8
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-8, 3.5],
+      "renderOrderMod": 2
+    },
+    {
+      "id": "ROCKET_FRONT",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-1, -0],
+      "renderOrderMod": -10
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-19.5, -0],
+      "length": 6.5,
+      "width": 29,
+      "angle": 180,
+      "contrailSize": 29,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-11.5, 3.5],
+      "length": 41,
+      "width": 6,
+      "angle": 174.5,
+      "contrailSize": 6,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-11.5, -3.5],
+      "length": 41,
+      "width": 6,
+      "angle": -174.5,
+      "contrailSize": 6,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    -8, -3.5,
+    2.5, -15.5,
+    12.5, -6,
+    12.5, 6,
+    2.5, 15.5,
+    -8, 3.5
+  ]
+}

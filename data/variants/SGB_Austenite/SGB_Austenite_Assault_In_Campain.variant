@@ -1,0 +1,83 @@
+{
+  "variantId": "SGB_Austenite_Assault_In_Campain",
+  "hullId": "SGB_Austenite_Ammo",
+  "displayName": "Damaged",
+  "goalVariant": false,
+  "fluxCapacitors": 10,
+  "fluxVents": 9,
+  "quality": 0,
+  "permaMods": [
+  "erratic_injector",
+  "damaged_mounts",
+  "fragile_subsystems",
+  "comp_hull",
+  "comp_structure"
+  ],
+  "hullMods": [
+        "SGB_Austenite_Gun_R",
+        "SGB_Austenite_NormalWing",
+        "SGB_Austenite_Head_Assault",
+        "SGB_Austenite_Gun_L",
+        "SGB_Austenite_Engine_Wing_Polarization",
+        "targetingunit",
+        "hardenedshieldemitter",
+        "fluxbreakers",
+        "unstable_injector",
+        "reinforcedhull",
+        "autorepair",
+        "SGB_Austenite_System_Ammo"
+  ],
+  "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WEAPON_LEFT": "SGB_Austenite_Weapon_Gun_L",
+                "WEAPON_RIGHT": "SGB_Austenite_Weapon_Gun_R"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "ROCKET_LEFT": "SGB_Austenite_Rocket_L",
+                "ROCKET_RIGHT": "SGB_Austenite_Rocket_R"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "lightdualac"
+            }
+        },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WING_LEFT": "SGB_Austenite_WingNormal_L",
+        "WING_RIGHT": "SGB_Austenite_WingNormal_R",
+        "HEAD": "SGB_Austenite_Head",
+        "WING_ENGINE_LEFT": "SGB_Austenite_Engine_Wing_L_P",
+        "WING_ENGINE_RIGHT": "SGB_Austenite_Engine_Wing_R_P"
+       }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

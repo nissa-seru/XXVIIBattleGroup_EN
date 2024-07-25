@@ -1,0 +1,46 @@
+{
+  "variantId": "SGB_Axio_DogFight_SkyGuard",
+  "hullId": "SGB_Axio_DogFight",
+  "displayName": "Guardor",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 0.5,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 003": "SGB_Wings_Missile_s",
+        "WS 004": "SGB_Wings_Missile_s"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "SGB_PinTwi",
+        "WS 002": "SGB_PinTwi"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "SGB_Pin",
+        "WS0004": "SGB_Pin"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "flak"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

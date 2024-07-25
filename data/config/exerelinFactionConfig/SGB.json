@@ -1,0 +1,89 @@
+{
+	"playableFaction":true,
+	"corvusCompatible":true,
+    
+	"rebelFleetSuffix":"Renegade",
+    
+	"marketSpawnWeight":0.6,
+
+	"startRelationships":{ 
+		"tritachyon": -0.8, 
+		"persean":0.3,
+		"hegemony":-0.8, 
+		"luddic_path":-0.6, 
+		"pirates":-0.6,
+		"sindrian_diktat":0.1,
+	},
+    	"maxRelationships":{
+		"hegemony": 0.6,
+		"pirates": -0.6,
+		"luddic_church": 1,
+		"luddic_path": -0.59,
+		"tritachyon": 0.6, 
+		"remnant": -0.8, 
+	},
+	"alignments":{
+	"diplomatic":1,
+	"militarist":0.5,
+	"hierarchical":-0.5
+	},
+	"diplomacyPositiveChance":{
+	"luddic_church":0.4,
+	"luddic_path":-0.2
+	},
+	"diplomacyNegativeChance":{
+	"tritachyon":1.85,
+	"hegemony":1.85,
+	"persean":0.3
+	},
+	"diplomacyTraits":["lowprofile","irredentist"],
+	
+	"colonyExpeditionChance":1,	
+	"colonyTargetValuator":"exerelin.campaign.colony.IndustrialColonyTargetValuator",
+
+	"specialForcesNamerClass":"exerelin.campaign.intel.specialforces.namer.PlanetNamer",
+
+	"startShipsSolo":[
+	["SGB_Duplin_Assault"],
+	["SGB_Ceaies_Assault"], 
+	["SGB_Wiesios_Assault"], 
+	["SGB_Redmond_Support"]
+	],
+	"startShipsCombatSmall":[
+	["SGB_Wiesios_Assault", "SGB_Redmond_Support"],
+	["SGB_Wiesios_Assault", "SGB_Ceaies_Assault"],
+	["SGB_Hammies_Assault", "SGB_Duplin_Assault"]
+	],
+	"startShipsCombatLarge":[
+	["SGB_Ascaedy_Assault", "SGB_Wiesios_Assault", "SGB_Felix_Assault"]		],
+	"startShipsTradeSmall":[
+	["SGB_Felix_Assault,",",SGB_Redmond_Support", "SGB_Anoyas_Cargo"]
+	],
+	"startShipsSuper":[
+		["SGB_Austenite_Assault"]
+	],
+
+    "startSpecialItems":[
+        [["SGB_package", ""]]
+    ],
+
+    "defenceStations":[
+        {"ids":["orbitalstation", "battlestation", "starfortress"]},
+        {"ids":["orbitalstation_high", "battlestation_high", "starfortress_high"], "weight":0.5},
+    ],
+    
+    "industrySeeds":[
+        {"id":"orbitalworks", "mult":0.1},
+        {"id":"fuelprod", "mult":0.1},
+        {"id":"lightindustry", "mult":0.1},
+    ],
+    
+    "bonusSeeds":[
+        {"id":"population_upsize", "count":1},
+        {"id":"nanoforge_pristine", "count":1},
+		{"id":"aiCore_station", "count":2, "mult":0.35},
+        {"id":"aiCore_military", "mult":0.8},
+        {"id":"aiCore_heavyindustry", "count":2},
+        {"id":"aiCore_any", "mult":1}
+    ],
+}

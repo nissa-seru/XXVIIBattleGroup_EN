@@ -1,0 +1,14 @@
+trail,projectile,sprite,minLength,fadeIn,duration,fadeOut,sizeIn,sizeOut,colorIn,colorOut,opacity,textLength,textScroll,distance,dispersion,drift,fadeOnFadeOut,angleAdjustment,additive,velocityIn,velocityOut,randomVelocity,angle,rotationIn,rotationOut,randomRotation,renderBelowExplosions
+SGB_Austenite_Weapon_Blast_shot_trail0,SGB_Austenite_Weapon_Blast_shot,SGB_Cloud_64,12,0.05,0,0.025,15,10,"[155,155,155]","[200,200,200]",0.65,300,400,0,0,0,FALSE,TRUE,TRUE,0,0,0,0,0,0,false,false
+SGB_Austenite_Weapon_Blast_shot_trail1,SGB_Austenite_Weapon_Blast_shot,SGB_Lightning_beam,10,0,0,0.05,25,20,"[200,175,100]","[200,200,200]",0.8,200,400,0,0,0,TRUE,TRUE,TRUE,0,0,0,0,0,0,false,false
+SGB_Austenite_Weapon_Blast_shot_trail2,SGB_Austenite_Weapon_Blast_shot,SGB_Lightning_beam,9,0.1,0,0.055,15,10,"[200,175,155]","[255,150,100]",0.75,200,400,0,0,0,TRUE,TRUE,TRUE,0,0,0,0,0,0,false,false
+,,,,,,,,,,,,,,,,,,,
+SGB_Austenite_Weapon_Gun_shot_trail0,SGB_Austenite_Weapon_Gun_shot,SGB_Lightning_beam,10,0,0,0.25,25,20,"[200,175,100]","[200,200,200]",0.5,200,400,0,0,0,TRUE,TRUE,TRUE,0,0,0,0,0,0,false,false
+SGB_Austenite_Weapon_Gun_shot_trail1,SGB_Austenite_Weapon_Gun_shot,SGB_Lightning_beam,8,0.1,0,0.25,15,8,"[105,105,105]","[230,230,180]",0.75,400,400,0,0,0,FALSE,TRUE,TRUE,0,0,0,0,0,0,false,false
+,,,,,,,,,,,,,,,,,
+XXVII_MeltingMold_EnergyLoader_shot_trail0,XXVII_MeltingMold_EnergyLoader_shot,base_trail_zap,10,0,0.25,0.75,20,15,"[100,255,113]","[218,255,55]",0.7,128,-600,20,0,0,TRUE,FALSE,TRUE,0,0,0,0,0,0,TRUE,FALSE
+XXVII_MeltingMold_EnergyLoader_shot_trail1,XXVII_MeltingMold_EnergyLoader_shot,base_trail_aura,12,0.05,0.45,0.25,20,8,"[218,255,55]","[255,230,170]",0.5,-512,350,50,0,0,TRUE,FALSE,TRUE,0,0,0,0,0,0,FALSE,TRUE
+,,,,,,,,,,,,
+XXVII_type_27_nuke_trail0,XXVII_type_27_nuke,base_trail_smoke,20,0.1,0.25,1,16,32,"[221,255,100]","[255,70,25]",0.75,-512,0,25,0,1,FALSE,FALSE,TRUE,15,5,0,180,15,5,TRUE,TRUE
+,,,,,,,,,
+SGB_Barb_shot_trail0,SGB_Barb_shot,base_trail_smooth,20,0.05,0.1,0.45,5,1,"[236,246,186]","[131,108,95]",0.5,128,0,30,0,1,FALSE,FALSE,TRUE,100,0,0.2,0,0,180,TRUE,TRUE

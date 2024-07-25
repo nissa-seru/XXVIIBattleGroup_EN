@@ -1,0 +1,72 @@
+{
+  "variantId": "SGB_Ascaedy_LongWay",
+  "hullId": "SGB_Ascaedy",
+  "displayName": "Damaged",
+  "goalVariant": false,
+  "fluxCapacitors": 20,
+  "fluxVents": 12,
+  "quality": 0,
+  "permaMods": [
+	"defective_manufactory",
+	"comp_armor",
+	"comp_hull",
+	],
+  "hullMods": [
+    "hardenedshieldemitter",
+    "targetingunit",
+    "ballistic_rangefinder"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "gauss"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "typhoon",
+        "WS0003": "typhoon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0004": "heavymauler",
+        "WS0005": "heavymauler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0013": "ionpulser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0007": "lightneedler",
+        "WS0008": "lightneedler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0009": "lightneedler",
+        "WS0010": "lightneedler"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "SGB_Ares_wing",
+    "SGB_Ares_wing"
+  ]
+}

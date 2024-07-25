@@ -1,0 +1,198 @@
+{
+  "hullName": "SGB_Davington",
+  "hullId": "SGB_Davington",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/SGB_Davington.png",
+  "style": "SGB_TECH",
+  "height": 163,
+  "width": 111,
+  "center": [56, 66],
+  "collisionRadius": 116.5,
+  "shieldCenter": [6, -0],
+  "shieldRadius": 108,
+  "viewOffset": 0,
+  "builtInMods": [
+    "heg_militarized",
+    "SGB_AllForHuman"
+  ],
+  "builtInWeapons": {
+    "WS0008": "typhoon",
+    "WS0009": "lrpdlaser",
+    "WS0010": "lrpdlaser"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-31, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 30,
+      "locations": [-42, 20],
+      "renderOrderMod": 1
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -30,
+      "locations": [-42, -20],
+      "renderOrderMod": 1
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-15, -35]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-15, 35]
+    },
+    {
+      "id": "WS0008",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 19,
+      "angle": -0,
+      "locations": [39, -0]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [45.5, 21.5]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [45.5, -21.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-65, 17],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-65, -17],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-59, 28.5],
+      "length": 24,
+      "width": 11,
+      "angle": -180,
+      "contrailSize": 11,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-59, -28.5],
+      "length": 24,
+      "width": 11,
+      "angle": 180,
+      "contrailSize": 11,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-56.5, 36.5],
+      "length": 12,
+      "width": 5,
+      "angle": -173.5,
+      "contrailSize": 5,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-56.5, -36.5],
+      "length": 12,
+      "width": 5,
+      "angle": 173.5,
+      "contrailSize": 5,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-47, 48],
+      "length": 13.5,
+      "width": 8,
+      "angle": -169,
+      "contrailSize": 8,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-47, -48],
+      "length": 13.5,
+      "width": 8,
+      "angle": 169,
+      "contrailSize": 8,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    53, -9.5,
+    72.5, -11.5,
+    97.5, -21.5,
+    73.5, -32,
+    39, -32.5,
+    14.5, -37,
+    6.5, -32.5,
+    -16.5, -38.5,
+    -27.5, -54,
+    -46, -54.5,
+    -42.5, -42,
+    -57.5, -35,
+    -58.5, -23,
+    -62.5, -21,
+    -62.5, -13.5,
+    -44.5, -0,
+    -62.5, 13.5,
+    -62.5, 21,
+    -58.5, 23,
+    -57.5, 35,
+    -42.5, 42,
+    -46, 54.5,
+    -27.5, 54,
+    -16.5, 38.5,
+    6.5, 32.5,
+    14.5, 37,
+    39, 32.5,
+    73.5, 32,
+    97.5, 21.5,
+    72.5, 11.5,
+    53, 9.5
+  ]
+}

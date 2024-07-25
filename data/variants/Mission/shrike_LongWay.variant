@@ -1,0 +1,36 @@
+{
+    "displayName": "BountyHunter",
+    "fluxCapacitors": 7,
+    "fluxVents": 0,
+    "goalVariant": false,
+    "hullId": "shrike",
+    "hullMods": [
+        "converted_hangar",
+        "frontemitter",
+        "safetyoverrides",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "shrike_LongWay",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "ionpulser",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "phasecl",
+            }
+        },
+    ],
+    "wings": [
+        "thunder_wing",
+    ],
+    "modules": [],
+}

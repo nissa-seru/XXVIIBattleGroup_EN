@@ -1,0 +1,18 @@
+{
+	"id":"SGB_RepairWings",
+    "type":"STAT_MOD",
+    "aiType":"CUSTOM",
+    "aiScript":"data.shipsystems.scripts.ai.SGB_RepairWingsAI",
+	
+	"statsScript":"data.shipsystems.scripts.SGB_RepairWings",
+	
+	"useSound":"system_reserve_wing",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+	}
+}
+
+
+
+

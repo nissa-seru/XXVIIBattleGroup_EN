@@ -1,0 +1,50 @@
+{
+    "displayName": "BountyHunter",
+    "fluxCapacitors": 6,
+    "fluxVents": 0,
+    "goalVariant": false,
+    "hullId": "apogee",
+    "hullMods": [
+        "converted_hangar",
+        "safetyoverrides",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "apogee_LongWay2",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 008": "tachyonlance",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 009": "locust",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "sabot",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "ionpulser",
+                "WS 002": "ionpulser",
+            }
+        },
+    ],
+    "wings": [
+        "thunder_wing",
+    ],
+    "modules": [],
+}

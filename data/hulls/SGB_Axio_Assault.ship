@@ -1,0 +1,177 @@
+{
+  "hullName": "SGB_Axio_Assault",
+  "hullId": "SGB_Axio_Assault",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/Wing_System/SGB_Axio_Plus_Attack.png",
+  "style": "SGB_WING_TECH",
+  "height": 34,
+  "width": 58,
+  "center": [29, 16],
+  "collisionRadius": 51.5,
+  "shieldCenter": [1, -0],
+  "shieldRadius": 41.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "autorepair"
+  ],
+  "builtInWeapons": {
+    "WS0005": "SGB_Temperom",
+    "WS0006": "blinker_green",
+    "WS0007": "blinker_green",
+    "WS0008": "blinker_green",
+    "WS0009": "blinker_green"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [12, -0]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [3, -0],
+      "renderOrderMod": -10
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [14.5, 13.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": -0,
+      "locations": [14.5, -13.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [10.5, 18]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [10.5, -18]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-7, -18]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-7, 18]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 74.5,
+      "locations": [5, 12.5]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": -74.5,
+      "locations": [5, -12.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-21.5, -0],
+      "length": 2,
+      "width": 51,
+      "angle": 180,
+      "contrailSize": 51,
+      "style": "SGB_TECH_GREEN"
+    },
+    {
+      "location": [-13.5, -14],
+      "length": 18,
+      "width": 7,
+      "angle": 167.5,
+      "contrailSize": 7,
+      "style": "SGB_TECH_GREEN"
+    },
+    {
+      "location": [-13.5, 14],
+      "length": 18,
+      "width": 7,
+      "angle": -167.5,
+      "contrailSize": 7,
+      "style": "SGB_TECH_GREEN"
+    },
+    {
+      "location": [-18, -13],
+      "length": 2,
+      "width": 16,
+      "angle": 167.5,
+      "contrailSize": 16,
+      "style": "SGB_TECH_GREEN"
+    },
+    {
+      "location": [-18, 13],
+      "length": 2,
+      "width": 16,
+      "angle": -167.5,
+      "contrailSize": 16,
+      "style": "SGB_TECH_GREEN"
+    },
+    {
+      "location": [-3, -0],
+      "length": 48.5,
+      "width": 11,
+      "angle": 180,
+      "contrailSize": 11,
+      "style": "SGB_TECH_GREEN"
+    }
+  ],
+  "bounds": [
+    -2.5, -6,
+    -11.5, -13,
+    -3, -15,
+    11, -22.5,
+    11, 22.5,
+    -3, 15,
+    -11.5, 13,
+    -2.5, 6
+  ]
+}

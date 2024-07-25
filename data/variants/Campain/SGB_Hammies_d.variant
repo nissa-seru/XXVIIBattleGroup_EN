@@ -1,0 +1,44 @@
+{
+  "variantId": "SGB_Hammies_d",
+  "hullId": "SGB_Hammies",
+  "displayName": "Damaged",
+  "goalVariant": false,
+  "fluxCapacitors": 17,
+  "fluxVents": 20,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "fluxdistributor",
+    "ballistic_rangefinder"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "heavymortar",
+        "WS0004": "heavymortar",
+        "WS0005": "heavymortar"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0006": "atropos",
+        "WS0007": "atropos"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "lightdualac",
+        "WS0002": "lightdualac"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

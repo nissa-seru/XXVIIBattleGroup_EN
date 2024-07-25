@@ -1,0 +1,28 @@
+{
+    "displayName": "BountyHunter",
+    "fluxCapacitors": 5,
+    "fluxVents": 0,
+    "goalVariant": false,
+    "hullId": "nebula",
+    "hullMods": [
+        "converted_hangar",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "nebula_LongWay",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "lightdualac",
+                "WS 002": "lightdualac",
+            }
+        },
+    ],
+    "wings": [
+        "thunder_wing",
+    ],
+    "modules": [],
+}

@@ -1,0 +1,117 @@
+{
+  "hullName": "SGB_Quench",
+  "hullId": "SGB_Quench",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/weapons/system/SGB_Quench_M.png",
+  "style": "SGB_TECH",
+  "height": 39,
+  "width": 16,
+  "center": [8, 16.5],
+  "collisionRadius": 36,
+  "shieldCenter": [-2.5, -0],
+  "shieldRadius": 31,
+  "viewOffset": 0,
+  "builtInMods": [
+    "SGB_AllForHuman"
+  ],
+  "builtInWeapons": {
+    "WING_LEFT": "SGB_Quench_L",
+    "WING_RIGHT": "SGB_Quench_R",
+    "WS0002": "harpoon_single",
+    "WS0003": "SGB_Quench_Rocket",
+    "WS0004": "SGB_Quench_M"
+  },
+  "weaponSlots": [
+    {
+      "id": "WING_LEFT",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 16,
+      "angle": -0,
+      "locations": [-2.5, 11.5],
+      "renderOrderMod": -10
+    },
+    {
+      "id": "WING_RIGHT",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 16,
+      "angle": 0,
+      "locations": [-2.5, -11.5],
+      "renderOrderMod": -10
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 3,
+      "angle": 0,
+      "locations": [-2, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [3, -0]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 33,
+      "angle": 0,
+      "locations": [3.5, -0]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 15,
+      "angle": -0,
+      "locations": [16.5, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 3,
+      "angle": 0,
+      "locations": [-1.5, 3.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-14.5, -0],
+      "length": 37.5,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-18, -0],
+      "length": 8.5,
+      "width": 21,
+      "angle": 180,
+      "contrailSize": 21,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    -12.5, 17,
+    6.5, 9.5,
+    22.5, -0,
+    6.5, -9.5,
+    -12.5, -17,
+    -8, -0
+  ]
+}

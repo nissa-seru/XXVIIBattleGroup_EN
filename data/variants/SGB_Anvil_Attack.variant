@@ -1,0 +1,57 @@
+{
+  "variantId": "SGB_Anvil_Attack",
+  "hullId": "SGB_Anvil",
+  "displayName": "Attack",
+  "goalVariant": true,
+  "fluxCapacitors": 15,
+  "fluxVents": 19,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "advancedoptics",
+    "missleracks",
+    "targetingunit",
+    "XXVII_SpecialWingGroup_Assault"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "railgun",
+        "WS0004": "railgun"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "XXVII_den_Anvil_R",
+        "WS0009": "XXVII_den_Anvil_L",
+        "WS0010": "XXVII_den_Anvil_ML",
+        "WS0011": "XXVII_den_Anvil_MR"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "ionbeam",
+        "WS0005": "gravitonbeam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "vulcan",
+        "WS0007": "vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "SGB_Ares_Coop_wing",
+    "SGB_Axio_Assault_wing"
+  ]
+}

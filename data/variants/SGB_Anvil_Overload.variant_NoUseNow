@@ -1,0 +1,78 @@
+{
+  "variantId": "SGB_Anvil_Overload",
+  "hullId": "SGB_Anvil",
+  "displayName": "Support",
+  "goalVariant": true,
+  "fluxCapacitors": 17,
+  "fluxVents": 9,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "expanded_deck_crew",
+    "advancedoptics"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0002": "hveldriver",
+        "WS0003": "hveldriver"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0020": "gauss"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "XXVII_den_Anvil_M"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0018": "XXVII_den_Anvil_L",
+        "WS0019": "XXVII_den_Anvil_R"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "lightneedler",
+        "WS0009": "lightneedler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "lightdualac",
+        "WS0007": "lightdualac"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "gravitonbeam",
+        "WS0005": "ionbeam",
+        "WS0010": "lightag",
+        "WS0011": "lightag"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "SGB_Ares_wing",
+    "SGB_Ares_wing"
+  ]
+}

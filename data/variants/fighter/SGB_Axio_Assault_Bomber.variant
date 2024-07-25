@@ -1,0 +1,28 @@
+{
+  "variantId": "SGB_Axio_Assault_Bomber",
+  "hullId": "SGB_Axio_Assault",
+  "displayName": "Blast",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "SGB_Temperom",
+        "WS0010": "SGB_Pin"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

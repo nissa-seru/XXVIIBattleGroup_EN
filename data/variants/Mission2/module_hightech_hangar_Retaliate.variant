@@ -1,0 +1,41 @@
+{
+  "variantId": "module_hightech_hangar_Retaliate",
+  "hullId": "module_hightech_hangar",
+  "displayName": "Standard",
+  "goalVariant": false,
+  "fluxCapacitors": 15,
+  "fluxVents": 15,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "armoredweapons",
+    "heavyarmor",
+    "reinforcedhull",
+    "solar_shielding",
+    "fluxbreakers",
+    "expanded_deck_crew",
+    "autorepair",
+    "blast_doors"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 000": "phasecl",
+        "WS 001": "taclaser",
+        "WS 002": "heavyblaster",
+        "WS 003": "heavyblaster",
+        "WS 004": "taclaser",
+        "WS 005": "phasecl"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "wasp_wing",
+    "wasp_wing",
+    "longbow_wing",
+    "longbow_wing"
+  ]
+}

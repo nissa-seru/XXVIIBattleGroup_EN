@@ -1,0 +1,72 @@
+{
+  "variantId": "SGB_Falcon_2_Support",
+  "hullId": "SGB_Falcon_2",
+  "displayName": "Support",
+  "goalVariant": true,
+  "fluxCapacitors": 15,
+  "fluxVents": 15,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "converted_hangar"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "heavymauler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "hveldriver"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0002": "hveldriver",
+        "WS0007": "hveldriver"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "atropos",
+        "WS0009": "atropos"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0012": "SGB_Wings_Missile",
+        "WS0013": "SGB_Wings_Missile",
+        "WS0014": "SGB_Wings_Missile",
+        "WS0015": "SGB_Wings_Missile"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "SGB_Shackles_MissileLauncher"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "SGB_Ares_wing"
+  ]
+}

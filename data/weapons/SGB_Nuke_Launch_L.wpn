@@ -1,0 +1,46 @@
+{
+  "id": "SGB_Nuke_Launch_L",
+  "specClass": "projectile",
+  "projectileSpecId": "XXVII_type_27_nuke",
+  "type": "MISSILE",
+  "size": "LARGE",
+  "renderHints": [
+    RENDER_LOADED_MISSILES
+  ],
+  "turretSprite": "graphics/weapons/system/SGB_NukeLaunch_L.png",
+  "hardpointSprite": "graphics/weapons/system/SGB_NukeLaunch_L.png",
+  "turretOffsets": [
+    31,
+    15
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    60.5,
+    15
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "SMOKE",
+  "smokeSpec": {
+    "particleSizeMin": 13,
+    "particleSizeRange": 5,
+    "cloudParticleCount": 3,
+    "cloudDuration": 1,
+    "cloudRadius": 10,
+    "blowbackParticleCount": 3,
+    "blowbackDuration": 2,
+    "blowbackLength": 20,
+    "blowbackSpread": 10,
+    "particleColor": [
+      200,
+      165,
+      165,
+      100
+    ]
+  },
+  "fireSoundTwo": "riftcascade_windup"
+}

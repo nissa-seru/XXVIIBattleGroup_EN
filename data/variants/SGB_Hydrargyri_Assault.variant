@@ -1,0 +1,45 @@
+{
+  "variantId": "SGB_Hydrargyri_Assault",
+  "hullId": "SGB_Hydrargyri",
+  "displayName": "Assault",
+  "goalVariant": true,
+  "fluxCapacitors": 3,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "converted_hangar",
+    "ballistic_rangefinder",
+    "autorepair"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "lightneedler",
+        "WS0005": "lightneedler"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "heavymauler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "railgun",
+        "WS0003": "railgun"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "SGB_Drone_Mining_wing"
+  ]
+}

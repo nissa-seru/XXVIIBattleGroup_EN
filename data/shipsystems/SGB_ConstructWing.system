@@ -1,0 +1,17 @@
+{
+	"id":"SGB_ConstructWing",
+	"type":"STAT_MOD",
+	"aiType":"RESERVE_DEPLOYMENT",
+	
+	"statsScript":"data.shipsystems.scripts.SGB_ConstructWingStats",
+	
+	"useSound":"system_reserve_wing",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+	}
+}
+
+
+
+

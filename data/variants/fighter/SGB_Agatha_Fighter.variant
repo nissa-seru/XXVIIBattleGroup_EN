@@ -1,0 +1,31 @@
+{
+  "variantId": "SGB_Agatha_Fighter",
+  "hullId": "SGB_Agatha",
+  "displayName": "Fighter",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "SGB_Pin",
+        "WS0002": "lightmg"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "SGB_Wings_Missile",
+        "WS0004": "SGB_Wings_Missile"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,86 @@
+{
+  "variantId": "SGB_Forgnace_Fortress",
+  "hullId": "SGB_Forgnace",
+  "displayName": "Fortess",
+  "goalVariant": true,
+  "fluxCapacitors": 45,
+  "fluxVents": 25,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "ballistic_rangefinder",
+    "targetingunit",
+    "expanded_deck_crew"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "devastator",
+        "WS0002": "devastator"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0004": "phasecl",
+        "WS0005": "phasecl",
+        "WS0006": "phasecl",
+        "WS0007": "phasecl",
+        "WS0014": "railgun",
+        "WS0015": "railgun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0016": "railgun",
+        "WS0017": "railgun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0020": "railgun",
+        "WS0021": "railgun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "flak",
+        "WS0024": "flak"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0012": "lrpdlaser",
+        "WS0013": "lrpdlaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "vulcan",
+        "WS0009": "vulcan",
+        "WS0022": "vulcan",
+        "WS0023": "vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "SGB_Argion_Bomber_wing",
+    "SGB_Argion_Bomber_wing",
+    "SGB_Argion_Bomber_wing",
+    "SGB_Argion_Bomber_wing"
+  ]
+}

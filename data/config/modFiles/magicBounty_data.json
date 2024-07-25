@@ -1,0 +1,168 @@
+{	
+	"SGB_Clo": {
+		"trigger_marketFaction_any": ["tritachyon"],
+		"trigger_marketFaction_alliedWith": true,
+		"trigger_player_minLevel": 4,
+		"trigger_weight_mult": 0.75,
+
+		"job_name": "罪恶编队",
+		"job_description": "公司了解到，链戍集团军 在各处部署了一种实验性的战机编队，而此前我们已经收到到许多关于这种编队所造成的资产损毁报告，由于 链戍集团军 此举的针对性，速子科技 舰队难以使用官方舰船正常追踪，董事会希望获得一份与其交战并摧毁的记录报告.",
+		"job_comm_reply": "哦，请注意避让，感谢您的合作。顺便 - 您有看见速子科技的商队吗？.",
+		"job_intel_success": "董事会诚挚的感谢您解决了问题，有关款项将在一个星历日内由自由舰队支付到账；公司相关人员会立即分析您给予的报告，并会在一段时间后反制 链戍集团军 的竞争行为.",
+		
+		"job_forFaction": "tritachyon",
+		"job_deadline": 160,
+		"job_credit_reward": 200000,
+		"job_reward_scaling": 0.65,
+		"job_reputation_reward": 5,
+		
+		"job_type": "neutralisation",
+		"job_show_type": true,
+		"job_show_captain": false,
+		"job_show_fleet": "text",
+		"job_show_distance": "vanillaDistance",
+		"job_difficultyDescription": "通过各种诱饵，我们已经引上了一组战机编队和他们的支援舰船。敌人实际作战风格以及能力都十分不详，请小心行事。",
+		"job_memKey": "$SGB_Clo",
+		"job_item_reward": {
+	        },
+
+		"target_first_name": "Als",
+		"target_last_name": "Moraens",
+		"target_gender": "FEMALE",
+		"target_rank": "spaceCommander",
+		"target_post": "aristocrat",
+		"target_personality": "steady",
+		"target_level": 5,
+		"target_elite_skills": 2,
+		"target_skill_preference": "NO_ENERGY_YES_BALLISTIC_YES_MISSILE_YES_DEFENSE",
+		
+		"fleet_name": "链戍战机编队",
+		"fleet_faction": "SGB_SF",
+		"fleet_flagship_variant": "SGB_Quench_Fri_Commando",
+		"fleet_flagship_name": "Bench Locker",
+		"fleet_flagship_recoverable": false,
+		"fleet_preset_ships": {
+			"SGB_Quench_Fri_Commando":2,
+			"SGB_Anvil_Overload":1,
+		},
+		"fleet_preset_autofit": true,
+		"fleet_scaling_multiplier": 0.4,
+		"fleet_min_FP": 70,
+		"fleet_composition_faction": "SGB_SF",
+		"fleet_composition_quality": 2,
+		"fleet_transponder": false,
+		"fleet_behavior": "GUARDED",
+
+		"location_distance": "FAR",
+		"location_themes": [
+			"theme_interesting_minor",
+			"theme_ruins_secondary",
+			"theme_derelict_survey_ship",
+			"theme_derelict_probes",
+			"procgen_no_theme_pulsar_blackhole"
+		],
+		"location_themes_blacklist":[
+			"theme_already_occupied",
+			"theme_already_colonized",
+			"theme_hidden"
+		],
+        "location_entities": [ 
+            "gate",
+            "wreck",
+            "debris",
+            "stable_location",
+            "comm_relay",
+            "nav_buoy",
+            "sensor_array",
+        ],
+		"location_prioritizeUnexplored": true,
+		"location_defaultToAnyEntity": true
+	},
+	
+	
+	"SGB_Clo2": {
+		"trigger_memKeys_all": {
+            "$SGB_Clo":true,
+        },
+		"trigger_marketFaction_any": ["tritachyon"],
+		"trigger_marketFaction_alliedWith": true,
+		"trigger_player_minLevel": 6,
+		"trigger_weight_mult": 0.5,
+
+		"job_name": "一场清算",
+		"job_description": "由于 链戍集团军 此前对公司资产的破坏行动，致使 速子科技 受到了难以计量的经济损失。据我们的特工所言 - 其中大多数行动皆由 凯斯·特丽思 一手策划，并由他的残火突击组执行，如果其联队以及其本人能够在和联队进行演习操练时发生意外，公司将不胜感激.",
+		"job_comm_reply": "干扰我方航行将被视为干涉链戍集团军必要事务, 你的行为将被记录在案.",
+		"job_intel_success": "董事会诚挚的感谢您解决了问题，有关款项将在一个星历日内由自由舰队支付到账;与此同时，你的打捞小队从残骸之中提取出了尚且完好的一艘舰船蓝图.",
+		
+		"job_forFaction": "tritachyon",
+		"job_deadline": 160,
+		"job_credit_reward": 500000,
+		"job_reward_scaling": 0.65,
+		"job_reputation_reward": 5,
+		
+		"job_type": "assassination",
+		"job_show_type": true,
+		"job_show_captain": true,
+		"job_show_fleet": "presetText",
+		"job_show_distance": "vanillaDistance",
+		"job_difficultyDescription": "淬火编队 - 这是 链戍集团军 的一种古老的传统，也可以理解为一些独特舰载机驾驶员的掌权遗留物；这些具备远途航行能力的独特战机会结成小组去完成 链戍集团军 下达的任务，淬火编队并不只有你这次被要求解决的这一组。有大量淬火编队被部署在许多偏僻的位置。无论如何，如果我是你，我会准备一些 蹂躏者 之类的防空弹幕来给这些思想固化的顽固分子上一课。",
+		"job_memKey": "$SGB_Clo2",
+		"job_item_reward": {
+		    "ship_bp SGB_Anvil":1,
+	        },
+
+		"target_first_name": "凯斯",
+		"target_last_name": "特丽思",
+		"target_gender": "MALE",
+		"target_rank": "spaceCommander",
+		"target_post": "aristocrat",
+		"target_personality": "cautious",
+		"target_level": 6,
+		"target_elite_skills": 2,
+		"target_skill_preference": "NO_ENERGY_YES_BALLISTIC_YES_MISSILE_YES_DEFENSE",
+		
+		"fleet_name": "残火联队",
+		"fleet_faction": "SGB_SF",
+		"fleet_flagship_variant": "SGB_Quench_Clo_ACE",
+		"fleet_flagship_name": "Night Light",
+		"fleet_flagship_recoverable": false,
+		"fleet_preset_ships": {
+			"SGB_Anvil_Overload":3,
+			"SGB_Quench_Fri_Commando":5,
+		},
+		"fleet_preset_autofit": true,
+		"fleet_scaling_multiplier": 0.45,
+		"fleet_min_FP": 120,
+		"fleet_composition_faction": "SGB_SF",
+		"fleet_composition_quality": 1,
+		"fleet_transponder": true,
+		"fleet_behavior": "GUARDED",
+
+		"location_distance": "CLOSE",
+		"location_themes": [
+			"theme_interesting_minor",
+			"theme_ruins_secondary",
+			"theme_derelict_survey_ship",
+			"theme_derelict_probes",
+			"procgen_no_theme_pulsar_blackhole"
+		],
+		"location_themes_blacklist":[
+			"theme_already_occupied",
+			"theme_already_colonized",
+			"theme_hidden"
+		],
+        "location_entities": [ 
+            "gate",
+            "wreck",
+            "debris",
+            "stable_location",
+            "comm_relay",
+            "nav_buoy",
+            "sensor_array",
+            "gas_giant",
+            "planet",
+        ],
+		"location_prioritizeUnexplored": true,
+		"location_defaultToAnyEntity": true
+	},
+}

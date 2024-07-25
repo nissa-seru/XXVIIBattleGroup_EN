@@ -1,0 +1,54 @@
+{
+  "variantId": "SGB_Mould_Support",
+  "hullId": "SGB_Mould",
+  "displayName": "Support",
+  "goalVariant": true,
+  "fluxCapacitors": 8,
+  "fluxVents": 3,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "converted_hangar",
+    "turretgyros"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0010": "miningblaster"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "SGB_Ship_Red_Missile"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0011": "salamanderpod",
+        "WS0012": "salamanderpod",
+        "WS0013": "heatseeker",
+        "WS0014": "heatseeker"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "lightdualmg",
+        "WS0016": "lightdualmg",
+        "WS0017": "lightdualmg",
+        "WS0018": "lightdualmg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "SGB_Ares_wing"
+  ]
+}

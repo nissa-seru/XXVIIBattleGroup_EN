@@ -1,0 +1,66 @@
+{
+  "variantId": "module_hightech_attack_minelayer_2_Retaliate",
+  "hullId": "module_hightech_attack",
+  "displayName": "Lachor",
+  "goalVariant": false,
+  "fluxCapacitors": 20,
+  "fluxVents": 15,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "armoredweapons",
+    "magazines",
+    "missile_autoloader",
+    "stealth_minefield"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 000": "autopulse",
+        "WS 001": "plasma",
+        "WS 002": "autopulse",
+        "WS 004": "ionpulser",
+        "WS 005": "ionpulser",
+        "WS 007": "sabot",
+        "WS 008": "ioncannon",
+        "WS 011": "ioncannon",
+        "WS 012": "sabot"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 003": "kineticblaster",
+        "WS 006": "kineticblaster"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 009": "taclaser",
+        "WS 010": "taclaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

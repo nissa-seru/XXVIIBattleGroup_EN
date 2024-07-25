@@ -1,0 +1,48 @@
+{
+  "id": "SGB_Quench_Chaingun_L",
+  "specClass": "projectile",
+  "projectileSpecId": "chaingun_shot",
+  "type": "BALLISTIC",
+  "size": "MEDIUM",
+  "turretSprite": "graphics/weapons/SGB_Quench_Chaingun/SGB_Quench_Chaingun_L.png",
+  "turretGlowSprite": "graphics/weapons/SGB_Quench_Chaingun/SGB_Quench_Chaingun_LL.png",
+  "turretGunSprite": "graphics/weapons/SGB_Quench_Chaingun/SGB_Quench_Chaingun_LB.png",
+  "hardpointSprite": "graphics/weapons/SGB_Quench_Chaingun/SGB_Quench_Chaingun_L.png",
+  "hardpointGlowSprite": "graphics/weapons/SGB_Quench_Chaingun/SGB_Quench_Chaingun_LL.png",
+  "hardpointGunSprite": "graphics/weapons/SGB_Quench_Chaingun/SGB_Quench_Chaingun_LB.png",
+  "visualRecoil": 4,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [
+    25,
+    -1.5
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    38,
+    -1.5
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "MUZZLE_FLASH",
+  "muzzleFlashSpec": {
+    "length": 35,
+    "spread": 5,
+    "particleSizeMin": 6,
+    "particleSizeRange": 14,
+    "particleDuration": 0.15,
+    "particleCount": 11,
+    "particleColor": [
+      255,
+      240,
+      165,
+      200
+    ]
+  },
+  "fireSoundTwo": "chaingun_fire"
+}

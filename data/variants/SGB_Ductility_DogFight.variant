@@ -1,0 +1,62 @@
+{
+  "variantId": "SGB_Ductility_DogFight",
+  "hullId": "SGB_Ductility",
+  "displayName": "SkyGuard",
+  "goalVariant": true,
+  "fluxCapacitors": 31,
+  "fluxVents": 15,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "expanded_deck_crew",
+    "targetingunit",
+    "XXVII_SpecialWingGroup_DogFight",
+    "missleracks"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "devastator",
+        "WS0005": "devastator"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0002": "phasecl",
+        "WS0003": "phasecl"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "vulcan",
+        "WS0009": "vulcan",
+        "WS0010": "vulcan",
+        "WS0011": "vulcan",
+        "WS0012": "vulcan",
+        "WS0013": "vulcan"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "SGB_Axio_DogFight_wing",
+    "SGB_Ares_DogFight_wing",
+    "SGB_Ares_DogFight_wing"
+  ]
+}

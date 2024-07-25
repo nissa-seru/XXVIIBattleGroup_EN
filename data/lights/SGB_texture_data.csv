@@ -1,0 +1,6 @@
+id,type,frame,magnitude,map,path
+SGB_Onslaught,ship,,,material,graphics/ships/Material/SGB_Onslaught_material.png
+SGB_Onslaught,ship,,1,normal,graphics/ships/Normal/SGB_Onslaught_normal.png
+#hammer,turret,,1,normal,graphics/shaders/normal/weapons/torpedo_mount_2x_lowtech_small_turret_normal.png
+#hammer,hardpoint,,1,normal,graphics/shaders/normal/weapons/torpedo_mount_2x_lowtech_small_hardpoint_normal.png
+#harpoon_mrm,missile,,,material,graphics/shaders/material/missiles/missile_harpoon_material.png

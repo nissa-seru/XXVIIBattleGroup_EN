@@ -1,0 +1,28 @@
+{
+  "variantId": "SGB_Buffalo_Mining",
+  "hullId": "SGB_Buffalo",
+  "displayName": "Mining",
+  "goalVariant": true,
+  "fluxCapacitors": 6,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "militarized_subsystems",
+    "shielded_holds",
+    "expanded_cargo_holds"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "mininglaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "SGB_Drone_Mining_wing"
+  ]
+}

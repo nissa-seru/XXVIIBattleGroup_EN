@@ -1,0 +1,45 @@
+{
+    "displayName": "BountyHunter",
+    "fluxCapacitors": 19,
+    "fluxVents": 1,
+    "goalVariant": false,
+    "hullId": "doom",
+    "hullMods": [
+        "adaptive_coils",
+        "missleracks",
+        "safetyoverrides",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "doom_LongWay",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "phasecl",
+                "WS 002": "phasecl",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "sabot",
+                "WS 005": "sabot",
+                "WS 004": "sabot",
+                "WS 006": "sabot",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 007": "ionpulser",
+            }
+        },
+    ],
+    "wings": [],
+    "modules": [],
+}

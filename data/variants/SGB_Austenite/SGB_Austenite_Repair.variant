@@ -1,0 +1,82 @@
+{
+  "variantId": "SGB_Austenite_Repair",
+  "hullId": "SGB_Austenite",
+  "displayName": "Repair_Not_Finish",
+  "goalVariant": false,
+  "fluxCapacitors": 10,
+  "fluxVents": 3,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "SGB_Austenite_Rocket_L",
+    "SGB_Austenite_Rocket_R",
+    "SGB_Austenite_HeavyWing",
+    "SGB_Austenite_System_Repair",
+    "SGB_Austenite_Head_Armor",
+    "SGB_Austenite_Engine_Wing_Unstable",
+    "targetingunit",
+    "stabilizedshieldemitter",
+    "ballistic_rangefinder",
+    "hardenedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WEAPON_LEFT": "SGB_Austenite_Weapon_Rocket_L",
+        "WEAPON_RIGHT": "SGB_Austenite_Weapon_Rocket_R"
+        }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "lightneedler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "ROCKET_LEFT": "SGB_Austenite_Rocket_L",
+        "ROCKET_RIGHT": "SGB_Austenite_Rocket_R"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "vulcan",
+        "WS0003": "vulcan"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+       }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0002": "amblaster"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WING_LEFT": "SGB_Austenite_Wing_L",
+        "WING_RIGHT": "SGB_Austenite_Wing_R",
+        "TOP": "SGB_Austenite_Top",
+        "HEAD": "SGB_Austenite_Head_Armor",
+        "WING_ENGINE_LEFT": "SGB_Austenite_Engine_Wing_L_F",
+        "WING_ENGINE_RIGHT": "SGB_Austenite_Engine_Wing_R_F"
+        }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

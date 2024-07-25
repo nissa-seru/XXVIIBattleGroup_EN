@@ -1,0 +1,45 @@
+{
+    "displayName": "BountyHunter",
+    "fluxCapacitors": 12,
+    "fluxVents": 4,
+    "goalVariant": false,
+    "hullId": "sunder",
+    "hullMods": [
+        "converted_hangar",
+        "hardenedshieldemitter",
+        "unstable_injector",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "sunder_LongWay2",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "tachyonlance",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "sabot",
+                "WS 005": "sabot",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 007": "lightneedler",
+                "WS 006": "lightneedler",
+            }
+        },
+    ],
+    "wings": [
+        "thunder_wing",
+    ],
+    "modules": [],
+}

@@ -1,0 +1,53 @@
+{
+	# protip: runcode exerelin.campaign.intel.merc.MercDataManager.loadDefs();
+	
+	# by default, the AIM representative appears on markets of all factions neutral or better to independents
+	# add faction IDs here to override
+	"enabledFactions":[],
+	"disabledFactions":[],
+	"companies":{
+		#Poisoning-毒杀小队=====
+		#Aloof-上风小队=====
+		"arrayItegratedUnits":{
+			"name":"Aloof}Squad",
+			"desc":"The Shackles Garrison Army has deployed these hunting teams in many edge galaxies, and these teams are in great need of some Source of funds; You know, if you frequently carry out missions to destroy various power research stations, it will be difficult to receive some good official deals. So it is not uncommon to obtain contact information for groups that have been disbanded, disbanded, or simply want to earn extra money. These experienced mercenary teams are generally referred to as' upwind 'teams, which have the meaning of staying out of the matter.",
+			"logo":"graphics/factions/SGB_SF.png",
+			"shipNamePrefix":"ALB",
+			"feeUpfront":90000,
+			"feeMonthly":24,
+			"faction":"SGB",
+			"minRep":"WELCOMING",
+			"minLevel":3,
+			"ships":[
+				["SGB_Wiesios_Assault", "SGB_Quench_Clo_ACE"],
+				["SGB_Wiesios_Assault", "SGB_Quench_Fri_Commando"],
+				["SGB_Quench_Clo_ACE", "SGB_Quench_Fri_Commando"],
+			],
+			"extraFP":15,
+			"doctrineSizeOverride":2,	# overrides faction doctrine setting for ship size
+			"officers":[
+				{
+					"firstName":"Aloof",	
+					"lastName":" XXVII-Group Squad Commander",
+					"portrait":"graphics/portraits/SGB_SF_Flag.png",
+					"level":5,
+					"voice":"soldier",
+					"gender":"m",
+				},
+				{
+					"firstName":"Aloof",	
+					"lastName":" XXVII-Group Sergeant",
+					"portrait":"graphics/portraits/SGB_SF_Flag.png",
+					"level":3,
+					"voice":"soldier",
+					"gender":"m",
+				}
+			],
+			"averageSMods":1,
+			"miscData":{
+				"angeredByInsults":true,
+				"maxAutogenFleetSize":7,
+			},
+		},
+	}
+}

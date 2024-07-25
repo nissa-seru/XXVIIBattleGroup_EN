@@ -1,0 +1,191 @@
+{
+	"combatSmallForSmallFleet": {
+		"SGB_Duplin_Assault": 5,
+		"SGB_Ceaies_Assault": 5,
+		"SGB_Redmond_Support": 5,
+		"SGB_Wiesios_Assault": 5,
+		"SGB_Felix_Assault": 5,
+		"SGB_Sumner_Assault": 5,
+		"SGB_Posmous_Assault": 4,
+		"SGB_Ogent_Assault": 2
+	},
+	"combatSmall": {
+		"SGB_Duplin_Assault": 5,
+		"SGB_Ceaies_Assault": 5,
+		"SGB_Redmond_Support": 5,
+		"SGB_Wiesios_Assault": 5,
+		"SGB_Whip_Support": 5,
+		"SGB_Felix_Assault": 5,
+		"SGB_Sumner_Assault": 5,
+		"fallback":{"combatMedium":0.75},
+		"fallback2":{"combatLarge":0.5}
+	},
+	"combatMedium": {
+		"SGB_Hammies_Assault": 3,
+		"SGB_Hammies_Support": 2,
+		"SGB_Posmous_Support": 2,
+		"SGB_Posmous_Assault": 3,
+		"SGB_Davington_Attack": 3,
+		"SGB_Ogent_Assault": 5,
+
+
+		"SGB_Hydrargyri_Overload": 1,
+		"SGB_Hydrargyri_Assault": 1,
+
+		"fallback":{"combatSmall":1},
+		"fallback2":{"combatLarge":0.5}
+	},
+	"combatLarge": {
+		"SGB_Falcon_Support": 5,
+		"SGB_Falcon_2_Support": 1,
+		"SGB_Eagle_Support": 5,
+		"SGB_Eagle_2_Support": 1,
+		"SGB_Achilles_Assault": 5,
+		"SGB_Ascaedy_Assault": 5,
+		"SGB_Anvil_Overload": 2,
+		"SGB_Anvil_Assault": 3,
+
+		"fallback":{"combatMedium":1},
+		"fallback2":{"combatCapital":0.5}
+	},
+	"combatCapital": {
+		"SGB_Onslaught_Normal": 5,
+		"SGB_Stress_Assault": 5,
+		"SGB_Stress_2_Assault": 1,
+		"SGB_Forgnace_Battle_Assault": 2,
+		"SGB_Forgnace_Battle_Artillery": 3,
+		"fallback":{"combatSmall":1},
+		"fallback2":{"combatMedium":1}
+	},
+	"combatFreighterSmall": {
+		"SGB_Alicuty_Assault": 3
+	},
+	"combatFreighterMedium": {
+		"SGB_Alicuty_Assault": 3
+	},
+	"combatFreighterLarge": {
+		"SGB_Achilles_Assault": 3,
+		"SGB_Ascaedy_Assault": 3,
+		"SGB_Forgnace_Battle_Assault": 3
+	},
+	"civilianRandom": {
+	},
+	"carrierSmall": {
+		"SGB_Alicuty_Assault": 2,
+		"SGB_Alicuty_Coop": 1.75,
+		"SGB_Alicuty_DogFight": 1.25,
+
+		"fallback":{"carrierMedium":0.5},
+		"fallback2":{"carrierLarge":0.25}
+	},
+	"carrierMedium": {
+		"SGB_Aligate_Attack": 2,
+		"SGB_Aligate_Coop": 1,
+		"SGB_Aligate_DogFight": 1,
+		"SGB_Aligate_Assault": 1,
+
+
+		"fallback":{"carrierSmall":1},
+		"fallback2":{"carrierLarge":0.5}
+	},
+	"carrierLarge": {
+		"SGB_Ascaedy_Assault": 5,
+		"SGB_Anvil_Assault": 2,
+		"SGB_Anvil_Coop": 1,
+		"SGB_Anvil_Attack": 1,
+		"SGB_Ductility_Assault": 2,
+		"SGB_Ductility_DogFight": 1,
+		"SGB_Ductility_Attack": 1,
+		"SGB_Ductility_Coop": 1,
+		"SGB_Ductility_2_Assault": 1,
+		"SGB_Ductility_2_Coop": 0.5,
+		"SGB_Ductility_2_Attack": 0.5,
+		"SGB_Ductility_2_DogFight": 0.5,
+		"SGB_Forgnace_Fortress_AI": 0.5,
+
+		"fallback":{"carrierMedium":1},
+		"fallback2":{"carrierSmall":1}
+	},
+	"phaseSmall": {
+	},
+	"phaseMedium": {
+	},
+	"phaseLarge": {
+	},
+	"phaseCapital": {
+	},
+	"freighterSmall": {
+		"SGB_Redmond_Support": 5,
+		"SGB_Anoyas_Cargo": 5,
+
+		"fallback":{"freighterMedium":0.5},
+		"fallback2":{"freighterLarge":0.25}
+	},
+	"freighterMedium": {
+		"SGB_Buffalo_Mining": 3,
+		"SGB_Buffalo_Normal": 2,
+		"SGB_Mould_Support": 3,
+
+		"fallback":{"freighterSmall":1},
+		"fallback2":{"freighterLarge":0.5}
+	},
+	"freighterLarge": {
+		"SGB_Anvil_Overload": 1,
+		"SGB_Mould_Support": 5,
+
+		"fallback":{"freighterMedium":1},
+		"fallback2":{"freighterSmall":1}
+	},
+	"tankerSmall": {
+		"SGB_Anoyas_Tanker_Support": 5,
+
+		"fallback":{"tankerMedium":0.5},
+		"fallback2":{"tankerLarge":0.25}
+	},
+	"tankerMedium": {
+		"SGB_SoftMelting_Fuel": 5,
+		"fallback":{"tankerSmall":1},
+		"fallback2":{"tankerLarge":0.5}
+	},
+	"tankerLarge": {
+		"fallback":{"tankerMedium":1},
+		"fallback2":{"tankerSmall":1}
+	},
+	"personnelSmall": {
+		"SGB_Redmond_Support": 5,
+
+		"fallback":{"personnelMedium":0.5},
+		"fallback2":{"personnelLarge":0.25}
+	},
+	"personnelMedium": {
+		"SGB_Redmond_Support": 5
+	},
+	"personnelLarge": {
+		"SGB_Redmond_Support": 5
+	},
+	"linerSmall": {
+		"SGB_Redmond_Support": 5
+	},
+	"linerMedium": {
+		"SGB_Redmond_Support": 5
+	},
+	"linerLarge": {
+		"SGB_Redmond_Support": 5
+	},
+	"tug": {
+		"fallback":{"utility":1}
+	},
+	"crig": {
+		"fallback":{"utility":1}
+	},
+	"utility": {
+		"ox_Standard":5,
+		"crig_Standard":5
+	},
+	"orbitalStationLowTech": {
+		"station1_Standard":10
+	},
+	"battlestationLowTech": {
+		"station2_Standard":10
+	}
+}

@@ -1,0 +1,52 @@
+{
+  "id": "SGB_Austenite_Weapon_Gun_L",
+  "specClass": "projectile",
+  "projectileSpecId": "SGB_Austenite_Weapon_Gun_shot",
+  "everyFrameEffect":"data.weapons.SGB_Austenite_Weapon_Gun_Fire",
+  "type": "BALLISTIC",
+  "size": "MEDIUM",
+  "turretSprite": "graphics/ships/SGB_Austenite/SGB_Austenite_Weapon_Gun/SGB_Austenite_Weapon_Gun_L.png",
+  "turretGlowSprite": "graphics/ships/SGB_Austenite/SGB_Austenite_Weapon_Gun/SGB_Austenite_Weapon_Gun_LL.png",
+  "turretGunSprite": "graphics/ships/SGB_Austenite/SGB_Austenite_Weapon_Gun/SGB_Austenite_Weapon_Gun_LT.png",
+  "hardpointSprite": "graphics/ships/SGB_Austenite/SGB_Austenite_Weapon_Gun/SGB_Austenite_Weapon_Gun_L.png",
+  "hardpointGlowSprite": "graphics/ships/SGB_Austenite/SGB_Austenite_Weapon_Gun/SGB_Austenite_Weapon_Gun_LL.png",
+  "hardpointGunSprite": "graphics/ships/SGB_Austenite/SGB_Austenite_Weapon_Gun/SGB_Austenite_Weapon_Gun_LT.png",
+  "visualRecoil": 4,
+  "autocharge":true,
+  "interruptibleBurst":true,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [
+    23,
+    0.5
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    34,
+    0.5
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+	"glowColor":[204,197,149,225],
+  "animationType": "GLOW_AND_FLASH",
+  "muzzleFlashSpec": {
+    "length": 35,
+    "spread": 5,
+    "particleSizeMin": 6,
+    "particleSizeRange": 14,
+    "particleDuration": 0.15,
+    "particleCount": 11,
+    "particleColor": [
+      255,
+      240,
+      165,
+      200
+    ]
+  },
+  "fireSoundTwo": "SGB_Assault_Gun_fire"
+}

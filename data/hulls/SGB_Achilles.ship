@@ -1,0 +1,206 @@
+{
+  "hullName": "SGB_Achilles",
+  "hullId": "SGB_Achilles",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/SGB_Achilles.png",
+  "style": "SGB_TECH",
+  "height": 157,
+  "width": 136,
+  "center": [68, 73],
+  "collisionRadius": 115.5,
+  "shieldCenter": [-4, -0],
+  "shieldRadius": 110.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "SGB_AllForHuman"
+  ],
+  "builtInWeapons": {
+    "WS0002": "XXVII_den_Achilles_L",
+    "WS0003": "XXVII_den_Achilles_R"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 145,
+      "angle": 30,
+      "locations": [29, 51]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 145,
+      "angle": -30,
+      "locations": [29, -51]
+    },
+    {
+      "id": "WS0008",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 204,
+      "angle": -86,
+      "locations": [-17, -51]
+    },
+    {
+      "id": "WS0009",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 204,
+      "angle": 86,
+      "locations": [-17, 51]
+    },
+    {
+      "id": "WS0010",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 113,
+      "angle": 0,
+      "locations": [60, -0]
+    },
+    {
+      "id": "WS0013",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [70, 28]
+    },
+    {
+      "id": "WS0014",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [70, -28]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 20,
+      "angle": -0,
+      "locations": [3, 19]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 20,
+      "angle": 0,
+      "locations": [3, -19]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-59.5, -0],
+      "length": 34,
+      "width": 21,
+      "angle": 180,
+      "contrailSize": 21,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-63, 25.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-63, -25.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-59, 14],
+      "length": 40,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 14,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-59, -14],
+      "length": 40,
+      "width": 14,
+      "angle": -180,
+      "contrailSize": 14,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-52, -0],
+      "length": 55,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-73, -34],
+      "length": 11.5,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 5,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-73, 34],
+      "length": 11.5,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    71, -19.5,
+    71, -32.5,
+    68, -34,
+    68, -39,
+    53, -39,
+    31, -58.5,
+    21, -57,
+    13, -40.5,
+    -9, -62.5,
+    -24.5, -64.5,
+    -32.5, -50,
+    -60.5, -60,
+    -66.5, -38.5,
+    -72, -36.5,
+    -72, -22,
+    -57.5, -19,
+    -71.5, -0,
+    -57.5, 19,
+    -72, 22,
+    -72, 36.5,
+    -66.5, 38.5,
+    -60.5, 60,
+    -32.5, 50,
+    -24.5, 64.5,
+    -9, 62.5,
+    13, 40.5,
+    21, 57,
+    31, 58.5,
+    53, 39,
+    68, 39,
+    68, 34,
+    71, 32.5,
+    71, 19.5,
+    82.5, -0
+  ]
+}

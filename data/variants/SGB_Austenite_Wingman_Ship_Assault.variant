@@ -1,0 +1,39 @@
+{
+  "variantId": "SGB_Austenite_Wingman_Ship_Assault",
+  "hullId": "SGB_Austenite_Wingman_Ship",
+  "displayName": "HMG",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "autorepair",
+    "advancedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "SGB_Ship_Red_Missile"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WEAPON": "chaingun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "ROCKET_FRONT": "heavymg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

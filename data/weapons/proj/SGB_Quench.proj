@@ -1,0 +1,33 @@
+{
+	"id":"SGB_Quench",
+	"specClass":"missile",	
+	"missileType":"MISSILE",
+	"sprite":"graphics/weapons/system/SGB_Quench_Ro.png",
+	"size":[46,42],
+    "center": [23, 16.5],
+	"collisionRadius":14,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[255,165,50,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":60, # purely visual
+	"fadeTime":2, # fadeout duration
+	"engineSpec":{"turnAcc":10,
+				  "turnRate":500,
+				  "acc":2500,
+				  "dec":800},
+	"engineSlots":[
+    { "id":"ES1",
+      "loc": [-14.5, -0],
+      "length": 37.5,
+      "width": 7,
+      "angle": 180,
+      "style": "MIDLINE"
+    },
+    { "id":"ES2",
+      "loc": [-18, -0],
+      "length": 8.5,
+      "width": 21,
+      "angle": 180,
+      "style": "MIDLINE"
+    }
+				    ]
+}

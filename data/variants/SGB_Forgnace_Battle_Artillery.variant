@@ -1,0 +1,69 @@
+{
+  "variantId": "SGB_Forgnace_Battle_Artillery",
+  "hullId": "SGB_Forgnace_Battle",
+  "displayName": "Artillery",
+  "goalVariant": true,
+  "fluxCapacitors": 23,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "ballistic_rangefinder",
+    "hardenedshieldemitter",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "SGB_Nuke_Launch_L",
+        "WS0004": "SGB_Nuke_Launch_R"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0002": "gauss",
+        "WS0005": "gauss"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0006": "gauss",
+        "WS0007": "gauss"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0018": "railgun",
+        "WS0019": "railgun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0020": "railgun",
+        "WS0021": "railgun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "flak",
+        "WS0009": "flak",
+        "WS0022": "vulcan",
+        "WS0023": "vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

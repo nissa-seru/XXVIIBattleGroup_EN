@@ -1,0 +1,19 @@
+{
+	"id":"SGB_Austenite_Weapon_Blast_shot",
+	"specClass":"projectile",
+	"onHitEffect":"data.weapons.SGB_Austenite_Weapon_Blast_OnHitEffect",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":20.0,
+	"width":25,
+	"fadeTime":0.25,
+	"fringeColor":[255,255,100,255],
+	"coreColor":[255,255,255,255],
+	"glowColor":[255,150,100,60],
+	"glowRadius":30,
+	"hitGlowRadius":30,
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":-50.0,
+	"bulletSprite":"graphics/missiles/shell_gauss_cannon.png"	
+}

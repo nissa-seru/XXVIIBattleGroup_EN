@@ -1,0 +1,53 @@
+{
+  "id": "XXVII_den_Redmond_L",
+  "specClass": "projectile",
+  "projectileSpecId": "XXVII_type_7_srm",
+  "everyFrameEffect":"data.weapons.SGB_Missile_SMS_Fire",
+  "fireSoundTwo":"SGB_Missile_NL_fire",
+  "type": "MISSILE",
+  "size": "SMALL",
+  "turretSprite": "graphics/weapons/system/SGB_Redmond_L.png",
+  "hardpointSprite": "graphics/weapons/system/SGB_Redmond_L.png",
+  "turretOffsets": [
+    -2.5,
+    -0.5
+  ],
+  "turretAngleOffsets": [
+    90
+  ],
+  "hardpointOffsets": [
+    17.5,
+    1,
+    12.5,
+    1,
+    7.5,
+    1,
+    2.5,
+    1
+  ],
+  "hardpointAngleOffsets": [
+    135,
+    135,
+    135,
+    135
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "SMOKE",
+  "smokeSpec": {
+    "particleSizeMin": 13,
+    "particleSizeRange": 5,
+    "cloudParticleCount": 3,
+    "cloudDuration": 1,
+    "cloudRadius": 10,
+    "blowbackParticleCount": 3,
+    "blowbackDuration": 2,
+    "blowbackLength": 20,
+    "blowbackSpread": 10,
+    "particleColor": [
+      200,
+      165,
+      165,
+      100
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+    "nexerelin":{
+		"agent_steal_ship_mults":{
+			"SGB_Onslaught":1.25,
+			"SGB_Quench_Fri":-1,
+			"SGB_Quench_Clo":-1,
+			"SGB_Austenite":-1,
+			"SGB_Austenite_Carrier":-1,
+			"SGB_Austenite_Wingman_Ship":-1,
+		},
+		"mining_ship_strengths":{
+			"SGB_Drone": 1,
+			"SGB_Anoyas_Tanker": 5,
+			"SGB_Anoyas": 5,
+			"SGB_Mould": 10,
+		}
+    },
+}

@@ -1,0 +1,43 @@
+{
+  "variantId": "SGB_Anvil_Overload",
+  "hullId": "SGB_Anvil",
+  "displayName": "Overload",
+  "goalVariant": true,
+  "fluxCapacitors": 29,
+  "fluxVents": 13,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "safetyoverrides",
+    "hardenedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "chaingun",
+        "WS0003": "lightdualac",
+        "WS0004": "lightdualac",
+        "WS0005": "chaingun",
+        "WS0006": "lightdualac",
+        "WS0007": "lightdualac"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "XXVII_den_Anvil_R",
+        "WS0009": "XXVII_den_Anvil_L",
+        "WS0010": "XXVII_den_Anvil_ML",
+        "WS0011": "XXVII_den_Anvil_MR"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "SGB_Agatha_wing",
+    "SGB_Ares_wing"
+  ]
+}

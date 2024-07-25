@@ -1,0 +1,14 @@
+{
+	"id":"SGB_ShockerShade_shot",
+	"specClass":"projectile",
+	"spawnType":"PLASMA",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"onHitEffect":"data.weapons.SGB_ShockerShade_Weapon_Blast_OnHitEffect",
+	"width":45.0,
+	"fadeTime":0.5,
+	"hitGlowRadius":40,
+	"fringeColor":[140,120,30,255],
+	"coreColor":[255, 245, 200,255],
+	"passThroughMissiles":true,	
+}

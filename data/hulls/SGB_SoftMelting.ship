@@ -1,0 +1,209 @@
+{
+  "hullName": "SGB_SoftMelting",
+  "hullId": "SGB_SoftMelting",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/SGB_SoftMelting.png",
+  "style": "SGB_TECH",
+  "height": 231,
+  "width": 114,
+  "center": [62.5, 111],
+  "collisionRadius": 144,
+  "shieldCenter": [1, -0],
+  "shieldRadius": 140,
+  "viewOffset": 0,
+  "builtInMods": [
+    "SGB_AllForHuman",
+    "civgrade"
+  ],
+  "builtInWeapons": {
+    "WS0005": "SGB_Ship_Red_Missile",
+    "WS0006": "SGB_SoftMelting_T"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": -90,
+      "locations": [6, -41.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [108, -17.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [107, 9.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 180,
+      "locations": [-94, -3.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [18.5, 34.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-19, 36],
+      "renderOrderMod": 10
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-112, 32],
+      "length": 26.5,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-112, 21],
+      "length": 35.5,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-112, 5.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-112, -3.5],
+      "length": 44,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 14,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-112, -12.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-112, -27.5],
+      "length": 37.5,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-111.5, -32],
+      "length": 21,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-108.5, 40],
+      "length": 19,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [80, 44.5],
+      "length": 19.5,
+      "width": 7,
+      "angle": 103.5,
+      "contrailSize": 128,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [50.5, -40.5],
+      "length": 19.5,
+      "width": 7,
+      "angle": -106.5,
+      "contrailSize": 128,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-72, -41],
+      "length": 14.87,
+      "width": 8.3,
+      "angle": -130.5,
+      "contrailSize": 128,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-59.5, 47],
+      "length": 19.610001,
+      "width": 8.96,
+      "angle": 132.5,
+      "contrailSize": 128,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    117.5, 13,
+    118, 2.5,
+    108.5, 1,
+    108.5, -11.5,
+    114.5, -11.5,
+    114.5, -23,
+    92.5, -23.5,
+    89, -32,
+    47.5, -33.5,
+    38.5, -38,
+    -37.5, -38.5,
+    -49.5, -33.5,
+    -107, -34,
+    -107, -26,
+    -102.5, -22,
+    -108.5, -15,
+    -108, 8,
+    -102.5, 14,
+    -109, 19,
+    -109, 34.5,
+    -103, 44,
+    -53, 43.5,
+    -52, 52.5,
+    -17, 52.5,
+    -15.5, 40,
+    35, 38,
+    39, 32.5,
+    74, 32,
+    76, 35.5,
+    89, 35.5
+  ]
+}

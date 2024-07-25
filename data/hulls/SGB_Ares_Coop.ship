@@ -1,0 +1,119 @@
+{
+  "hullName": "SGB_Ares_Coop",
+  "hullId": "SGB_Ares_Coop",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/Wing_System/SGB_Ares_Coop.png",
+  "style": "SGB_WING_TECH",
+  "height": 43,
+  "width": 26,
+  "center": [13, 14],
+  "collisionRadius": 28,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 29,
+  "viewOffset": 0,
+  "builtInWeapons": {
+    "WS0002": "blinker_red",
+    "WS0005": "SGB_Ares_Coop_Top",
+    "WS0006": "SGB_Screws",
+    "WS0007": "SGB_Screws",
+    "WS0008": "blinker_green"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 128,
+      "angle": 42,
+      "locations": [7, 9.5],
+      "renderOrderMod": 2
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 8,
+      "angle": -0,
+      "locations": [5.5, 6]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 37,
+      "angle": 0,
+      "locations": [0.5, -0]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [7.5, -0],
+      "renderOrderMod": 10
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 128,
+      "angle": -41.5,
+      "locations": [2, -10]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 128,
+      "angle": 41.5,
+      "locations": [2, 10]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-3.5, -13]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-6.5, 10]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-5, -0],
+      "length": 28,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "SGB_TECH_GREEN"
+    }
+  ],
+  "bounds": [
+    12.5, -4,
+    22, -5.5,
+    -1, -11,
+    -10, -7,
+    -2, -4,
+    -2, 4,
+    -10, 7,
+    -1, 11,
+    22, 5.5,
+    12.5, 4
+  ]
+}

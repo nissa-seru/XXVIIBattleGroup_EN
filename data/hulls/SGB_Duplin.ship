@@ -1,0 +1,149 @@
+{
+  "hullName": "SGB_Duplin",
+  "hullId": "SGB_Duplin",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/SGB_Duplin.png",
+  "style": "SGB_TECH",
+  "height": 68,
+  "width": 88,
+  "center": [44, 29],
+  "collisionRadius": 58.5,
+  "shieldCenter": [-3, -0],
+  "shieldRadius": 54.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "civgrade",
+    "SGB_AllForHuman"
+  ],
+  "builtInWeapons": {
+    "WS0003": "lightmg",
+    "WS0004": "lightmg"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 195,
+      "angle": 16,
+      "locations": [8.5, 21]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 195,
+      "angle": -16,
+      "locations": [8.5, -21]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 18,
+      "angle": 0,
+      "locations": [26.5, 3.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 18,
+      "angle": -0,
+      "locations": [26.5, -3.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-28, 13],
+      "length": 24.5,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-28, -13],
+      "length": 24.5,
+      "width": 9,
+      "angle": -180,
+      "contrailSize": 9,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-23, 20],
+      "length": 21.5,
+      "width": 8,
+      "angle": -174.5,
+      "contrailSize": 8,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-23, -20],
+      "length": 21.5,
+      "width": 8,
+      "angle": 174.5,
+      "contrailSize": 8,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-22, 28.5],
+      "length": 14.5,
+      "width": 8,
+      "angle": -164.5,
+      "contrailSize": 8,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-22, -28.5],
+      "length": 14.5,
+      "width": 8,
+      "angle": 164.5,
+      "contrailSize": 8,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-26, -0],
+      "length": 15,
+      "width": 13,
+      "angle": 180,
+      "contrailSize": 128,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [4, 32],
+      "length": 6.48,
+      "width": 5.64,
+      "angle": 111.5,
+      "contrailSize": 128,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [4, -32],
+      "length": 6.48,
+      "width": 5.64,
+      "angle": -111.5,
+      "contrailSize": 128,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    26, -11.5,
+    17.5, -12,
+    14, -28.5,
+    -1, -29,
+    -13.5, -39.5,
+    -25.5, -15.5,
+    -25.5, 15.5,
+    -13.5, 39.5,
+    -1, 29,
+    14, 28.5,
+    17.5, 12,
+    26, 11.5,
+    36, -0
+  ]
+}

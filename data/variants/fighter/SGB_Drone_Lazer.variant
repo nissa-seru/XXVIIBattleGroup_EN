@@ -1,0 +1,22 @@
+{
+  "variantId": "SGB_Drone_Lazer",
+  "hullId": "SGB_Drone",
+  "displayName": "Ion Beam",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "SGB_FerricOxide"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

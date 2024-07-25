@@ -1,0 +1,34 @@
+{
+  "variantId": "SGB_Agatha_DogFight_Assault",
+  "hullId": "SGB_Agatha_DogFight",
+  "displayName": "Fighter",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "SGB_Pin",
+        "WS0004": "SGB_Pin",
+        "WS0005": "SGB_Pin"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

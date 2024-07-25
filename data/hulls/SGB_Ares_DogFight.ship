@@ -1,0 +1,130 @@
+{
+  "hullName": "SGB_Ares_DogFight",
+  "hullId": "SGB_Ares_DogFight",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/Wing_System/SGB_Ares_DogFight.png",
+  "style": "SGB_WING_TECH",
+  "height": 43,
+  "width": 26,
+  "center": [13, 14],
+  "collisionRadius": 28,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 29,
+  "viewOffset": 0,
+  "builtInWeapons": {
+    "WS0008": "blinker_red",
+    "WS0009": "blinker_green"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 8,
+      "angle": -0,
+      "locations": [5, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 8,
+      "angle": 0,
+      "locations": [7.5, -0]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-5, -0],
+      "renderOrderMod": 4
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 8,
+      "angle": -0,
+      "locations": [2.5, -0]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [3, -8]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [3, 8]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 8,
+      "angle": 0,
+      "locations": [10, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-13.5, -6],
+      "length": 13.054988,
+      "width": 7.95419,
+      "angle": 168.5,
+      "contrailSize": 7.95419,
+      "style": "SGB_TECH"
+    },
+    {
+      "location": [-13.5, 6],
+      "length": 13.054988,
+      "width": 7.95419,
+      "angle": -168.5,
+      "contrailSize": 7.95419,
+      "style": "SGB_TECH"
+    },
+    {
+      "location": [-9, 12.5],
+      "length": 7.248833,
+      "width": 3.849376,
+      "angle": 158,
+      "contrailSize": 3.849376,
+      "style": "SGB_TECH"
+    },
+    {
+      "location": [-9, -12.5],
+      "length": 7.248833,
+      "width": 3.849376,
+      "angle": -158,
+      "contrailSize": 3.849376,
+      "style": "SGB_TECH"
+    }
+  ],
+  "bounds": [
+    12.5, -4,
+    22, -5.5,
+    -1, -11,
+    -10, -7,
+    -2, -4,
+    -2, 4,
+    -10, 7,
+    -1, 11,
+    22, 5.5,
+    12.5, 4
+  ]
+}

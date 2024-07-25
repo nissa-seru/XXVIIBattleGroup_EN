@@ -1,0 +1,39 @@
+{
+  "variantId": "SGB_Austenite_Wingman_Attack",
+  "hullId": "SGB_Austenite_Wingman_Assault",
+  "displayName": "Bomber",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "auxiliarythrusters",
+    "insulatedengine"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WEAPON": "SGB_Wings_Missile"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "ROCKET_FRONT": "SGB_Axio_Rocket_2"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "lrpdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

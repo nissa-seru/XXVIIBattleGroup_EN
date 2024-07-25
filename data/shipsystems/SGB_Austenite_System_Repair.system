@@ -1,0 +1,34 @@
+{
+	"id":"SGB_Austenite_System_Repair",
+	"type":"STAT_MOD",
+	"aiType":"DAMPER_FIELD",
+
+	"statsScript":"data.shipsystems.scripts.SGB_Austenite_System_Repair",
+	
+	"jitterColor":[255,210,100,50],
+	"jitterCopies":2,
+	"jitterMinRange":0,
+	"jitterRange":2,
+	"jitterRangeRadiusFraction":0,
+	
+	"weaponGlowColor":[25,25,25,25],
+	"weaponTypes":[ENERGY, BALLISTIC, MISSILE],
+
+	#"engineGlowColor":[255,210,100,200],
+	
+	"soundFilterType":"LOWPASS",
+	"soundFilterGain":0.75,
+	"soundFilterGainHF":0.25,
+
+	"fadeActivationSoundOnChargedown":true,
+	"useSound":"system_damper",
+	"loopSound":"system_damper_loop",
+	"deactivateSound":"system_damper_off",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+	}
+}
+
+
+

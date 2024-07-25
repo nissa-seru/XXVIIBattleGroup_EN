@@ -1,0 +1,58 @@
+{
+  "id": "SGB_Temperom",
+  "specClass": "beam",
+  "type": "ENERGY",
+  "size": "MEDIUM",
+  "beamEffect": "data.weapons.SGB_Temperom_Beam_Effect",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "turretSprite": "graphics/weapons/Wing_System/SGB_Temperom_t.png",
+  "turretGlowSprite": "graphics/weapons/Wing_System/SGB_Temperom_l.png",
+  "hardpointSprite": "graphics/weapons/Wing_System/SGB_Temperom_t.png",
+  "hardpointGlowSprite": "graphics/weapons/Wing_System/SGB_Temperom_l.png",
+  "glowColor": [
+    121,
+    123,
+    65,
+    255
+  ],
+  "hitGlowRadius": 30,
+  "turretOffsets": [
+    6,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    13,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "fringeColor": [
+    223,
+    255,
+    173,
+    175
+  ],
+  "coreColor": [
+    255,
+    255,
+    255,
+    250
+  ],
+  "width": 40,
+  "textureType": WEAVE,
+  "textureScrollSpeed": -800,
+  "pixelsPerTexel": 5,
+  "pierceSet": [
+    PROJECTILE_FF,
+    PROJECTILE_NO_FF,
+    PROJECTILE_FIGHTER,
+    MISSILE_FF,
+    MISSILE_NO_FF
+  ],
+  "fireSoundTwo": "phase_beam_loop"
+}

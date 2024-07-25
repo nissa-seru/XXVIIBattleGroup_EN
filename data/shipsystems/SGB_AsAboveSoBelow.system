@@ -1,0 +1,22 @@
+{
+	"id":"SGB_AsAboveSoBelow",
+	"type":"STAT_MOD",
+	"aiType":"WEAPON_BOOST",
+	
+	"statsScript":"data.shipsystems.scripts.SGB_AsAboveSoBelow",
+	
+	"weaponGlowColor":[0,0,0,135],
+	"weaponTypes":[ENERGY,BALLISTIC],
+
+	"engineGlowLengthMult":1.55,
+	"engineGlowWidthMult":1,
+	"engineGlowGlowMult":1.75,
+
+	"flameoutOnImpactChance":0,
+
+	"clampTurnRateAfter":true,
+	"clampMaxSpeedAfter":false,
+	
+	"useSound":"SGB_AsAboveSoBelow",
+	"outOfUsesSound":"gun_out_of_ammo",
+}

@@ -1,0 +1,65 @@
+{
+  "id": "SGB_Austenite_Weapon_Rocket_L",
+  "specClass": "projectile",
+  "projectileSpecId": "XXVII_type_7_srm",
+  "everyFrameEffect":"data.weapons.SGB_Missile_SMS_Fire",
+  "type": "MISSILE",
+  "size": "MEDIUM",
+  "turretSprite": "graphics/ships/SGB_Austenite/SGB_Austenite_Weapon_Rocket_L.png",
+  "hardpointSprite": "graphics/ships/SGB_Austenite/SGB_Austenite_Weapon_Rocket_L.png",
+  "renderHints": [
+    RENDER_LOADED_MISSILES
+  ],
+  "turretOffsets": [
+    7.5,
+    -0.5,
+    10.5,
+    3.5,
+    9.5,
+    -0.5,
+    12.5,
+    3.5
+  ],
+  "turretAngleOffsets": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    15,
+    -0.5,
+    18,
+    3.5,
+    17,
+    -0.5,
+    20,
+    3.5
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "SMOKE",
+  "smokeSpec": {
+    "particleSizeMin": 6,
+    "particleSizeRange": 20,
+    "cloudParticleCount": 3,
+    "cloudDuration": 1,
+    "cloudRadius": 10,
+    "blowbackParticleCount": 1,
+    "blowbackDuration": 2,
+    "blowbackLength": 20,
+    "blowbackSpread": 10,
+    "particleColor": [
+      170,
+      170,
+      170,
+      80
+    ]
+  },
+  "fireSoundTwo": "SGB_Missile_L_fire"
+}

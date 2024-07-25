@@ -1,0 +1,39 @@
+{
+    "displayName": "BountyHunter",
+    "fluxCapacitors": 11,
+    "fluxVents": 0,
+    "goalVariant": false,
+    "hullId": "sunder",
+    "hullMods": [
+        "converted_hangar",
+        "hardenedshieldemitter",
+        "safetyoverrides",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "sunder_LongWay",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "miningblaster",
+                "WS 003": "miningblaster",
+                "WS 004": "miningblaster",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "sabot_single",
+                "WS 005": "sabot_single",
+            }
+        },
+    ],
+    "wings": [
+        "thunder_wing",
+    ],
+    "modules": [],
+}

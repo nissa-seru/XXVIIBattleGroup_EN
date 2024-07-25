@@ -1,0 +1,27 @@
+{
+  "variantId": "SGB_Axio_Coop_Blast",
+  "hullId": "SGB_Axio_Coop",
+  "displayName": "Blast",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "SGB_MeltingMold_Launcher_fighter"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

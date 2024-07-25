@@ -1,0 +1,9 @@
+{
+	"id":"XXVII_Quench",
+	"type":"WEAPON",
+    "aiType":"CUSTOM",
+    "aiScript":"data.shipsystems.scripts.ai.SGB_alwaysuseAI",
+	
+	"weaponDataId":"SGB_Quench",
+	"outOfUsesSound":"gun_out_of_ammo",
+}

@@ -1,0 +1,32 @@
+{
+  "variantId": "SGB_Axio_Normal",
+  "hullId": "SGB_Axio",
+  "displayName": "Boomer",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 0.5,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "SGB_Wings_Missile_s",
+        "WS0004": "SGB_Wings_Missile_s",
+        "WS0005": "SGB_Axio_Rocket"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "vulcan",
+        "WS 002": "vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

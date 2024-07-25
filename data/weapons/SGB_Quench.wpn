@@ -1,0 +1,43 @@
+{
+  "id": "SGB_Quench",
+  "specClass": "projectile",
+  "projectileSpecId": "SGB_Quench",
+  "type": "MISSILE",
+  "size": "MEDIUM",
+  "turretSprite": "",
+  "hardpointSprite": "",
+  "turretOffsets": [
+    0,
+    -8
+  ],
+  "turretAngleOffsets": [
+    180
+  ],
+  "hardpointOffsets": [
+    0,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    180
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "SMOKE",
+  "smokeSpec": {
+    "particleSizeMin": 30,
+    "particleSizeRange": 10,
+    "cloudParticleCount": 3,
+    "cloudDuration": 1,
+    "cloudRadius": 10,
+    "blowbackParticleCount": 2,
+    "blowbackDuration": 2,
+    "blowbackLength": 25,
+    "blowbackSpread": 8,
+    "particleColor": [
+      255,
+      255,
+      255,
+      95
+    ]
+  },
+  "fireSoundTwo": "sabot_srm_fire"
+}

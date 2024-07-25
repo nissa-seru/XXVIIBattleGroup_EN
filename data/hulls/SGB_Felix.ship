@@ -1,0 +1,130 @@
+{
+  "hullName": "SGB_Felix",
+  "hullId": "SGB_Felix",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/SGB_Felix.png",
+  "style": "SGB_TECH",
+  "height": 54,
+  "width": 110,
+  "center": [55, 27],
+  "collisionRadius": 63.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 62,
+  "viewOffset": 0,
+  "builtInMods": [
+    "SGB_AllForHuman"
+  ],
+  "builtInWeapons": {
+    "WS0003": "blinker_red",
+    "WS0006": "XXVII_den_Felix_L",
+    "WS0007": "XXVII_den_Felix_R"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 245,
+      "angle": 45,
+      "locations": [2, 44]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 245,
+      "angle": -45,
+      "locations": [2, -44]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-19.5, -0]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 92,
+      "angle": 0,
+      "locations": [-2, 23.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 92,
+      "angle": -0,
+      "locations": [-2, -23.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-26, -0],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-26, 28],
+      "length": 20.5,
+      "width": 13,
+      "angle": 180,
+      "contrailSize": 13,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-26, -28],
+      "length": 20.5,
+      "width": 13,
+      "angle": -180,
+      "contrailSize": 13,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-24, -11],
+      "length": 18.643492,
+      "width": 7.59479,
+      "angle": 165,
+      "contrailSize": 7.59479,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-24, 11],
+      "length": 18.643492,
+      "width": 7.59479,
+      "angle": -165,
+      "contrailSize": 7.59479,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    18, -9,
+    18, -35,
+    7.5, -50.5,
+    -10, -53.5,
+    -24.5, -33,
+    -24.5, -24.5,
+    -15.5, -18,
+    -21.5, -13.5,
+    -21.5, 13.5,
+    -15.5, 18,
+    -24.5, 24.5,
+    -24.5, 33,
+    -10, 53.5,
+    7.5, 50.5,
+    18, 35,
+    18, 9,
+    24.5, -0
+  ]
+}

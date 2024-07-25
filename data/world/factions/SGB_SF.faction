@@ -1,0 +1,244 @@
+{
+	# Specifically for spawning neutral-to-everyone but hostile-to-the-player bounties
+	
+	id:"SGB_SF",
+    "color": [70,70,70,255],
+    "secondaryUIColor":[0,0,0,0],
+    "secondarySegments":14,
+	"displayName":"S.T.F.O. - Quench Squad",
+	"displayNameWithArticle":"S.T.F.O.",
+	"displayNameLong":"Shackles Garrison Special Task Force Organization - Quench Squad",
+	"displayNameLongWithArticle":"Quench Squad",
+	"entityNamePrefix":"Quench Squad",
+	"personNamePrefix":"Quench Squad",
+	"personNamePrefixAOrAn":"",
+	"displayNameIsOrAre":"",
+	"logo":"graphics/factions/SGB_SF.png",
+	"crest":"graphics/factions/SGBG.png",
+	"shipNamePrefix":"SGBSF",
+	"showInIntelTab":false,
+	"shipNameSources":{
+		"AZTEC":1,
+		"BEASTS":1,
+		"NORSE":1,
+		"CELTIC":1,
+		"SPACE":1,
+		"GENERAL":1,
+	},
+	"names":{
+		"fringe":1,
+		"modern":1,
+		"world":1,
+		"future":1,
+		"myth":1,
+		"old english":1,
+	},
+	# variantOverrides restricts hulls to listed variants and adjusts their probability
+	"variantOverrides":{
+	},
+	# multiplier for how often hulls show up in the faction's fleets
+	"hullFrequency":{
+		"tags":{
+			"base_bp":0,
+			"lowtech_bp":0,
+			"heg_aux_bp":0,
+			"SGB_bp":50,
+			"midline_bp":1,
+			"SGB_XXVII_bp":55,
+		},
+		"hulls":{
+			"buffalo2":0,
+			"gremlin":0,
+			"venture":0,
+		},
+	},
+	# ships the faction gets access to when importing S&W out-of-faction
+	"shipsWhenImporting":{
+		"tags":["SGB_bp"],
+		"hulls":[
+		],
+	},
+	"knownShips":{
+		"tags":["midline_bp", "SGB_bp", "SGB_XXVII_bp"],
+		"hulls":[
+		],
+	},
+	# listing ships here will make the faction mostly use them even if other hulls become available
+	"priorityShips":{
+		"tags":["SGB_bp"],
+		"hulls":[
+		],
+	},
+	"knownFighters":{
+		"tags":["SGB_bp"],
+		"fighters":[
+		],
+	},
+	"priorityFighters":{
+		"tags":["SGB_bp"],
+		"fighters":[
+		],
+	},
+	"knownWeapons":{
+		"tags":["base_bp", "lowtech_bp", "midline_bp", "hightech_bp", "missile_bp", "SGB_bp", "persean"],
+		"weapons":[
+			
+			"railgun",
+			"dualflak",
+			"heavymauler",
+			"hveldriver",
+			"gauss",
+			"mjolnir",
+			"breachpod",
+			"sabotpod",
+			"phasecl",
+			"cyclone",
+			"hurricane",
+			"squall",
+			"locust",
+			"pdburst",
+			"amblaster",
+			"phasebeam",
+			"heavyblaster",
+			"heavyburst",
+			"ionpulser",
+			"ionbeam",
+			"plasma",
+			"guardian",
+		],
+	},
+	"priorityWeapons":{
+		"tags":[],
+		"weapons":[
+		],
+	},
+	"knownHullMods":{
+		"tags":["merc","base_bp", "persean"],
+		"hullMods":[
+			"advancedshieldemitter", # accelerated
+			"turretgyros",
+			"armoredweapons",
+			"augmentedengines",
+			"autorepair",
+			"converted_hangar",
+			"eccm",
+			"ecm",
+			"expanded_deck_crew",
+			"magazines",
+			"missleracks",
+			"extendedshieldemitter",
+			"frontemitter",
+			"frontshield",  # makeshift
+			"hardenedshieldemitter",
+			"heavyarmor",
+			"insulatedengine",
+			"targetingunit",
+			"nav_relay",
+			"adaptiveshields", # omni
+			"operations_center",
+			"recovery_shuttles",
+			"fluxbreakers",
+			"stabilizedshieldemitter",
+			"surveying_equipment",
+			"hiressensors",
+			"efficiency_overhaul",
+			"converted_fighterbay",
+		],
+	},
+	"factionDoctrine":{
+		"warships":3,
+		"carriers":4,
+		"phaseShips":1,
+		
+		"officerQuality":5,
+		"shipQuality":5,
+		"numShips":5,
+		
+		"shipSize":3,
+		
+		"aggression":4,
+		
+		"combatFreighterProbability":0.5,     				# instead of some portion of the freighters in a fleet
+		"combatFreighterCombatUseFraction":0,				# as part of the normal combat lineup
+		"combatFreighterCombatUseFractionWhenPriority":0,   # as part of normal combat lineup, when marked as priority ship
+		"autofitRandomizeProbability":0.01,
+
+		"commanderSkillsShuffleProbability":1,
+		"commanderSkills":[
+			"crew_training",
+			"officer_training",
+			"coordinated_maneuvers",
+			"electronic_warfare",
+			"fighter_uplink",
+			"carrier_group",
+			"flux_regulation",
+		],
+	},
+	"illegalCommodities":[
+	],
+	"music":{
+		"theme":"XXVII_SP_Momentum",
+		"encounter_neutral":"faction_sbg_sf_encounter_neutral",
+		"encounter_hostile":"faction_sbg_sf_encounter_hostile",
+	},	
+	"portraits":{
+		"standard_male":[
+			"graphics/portraits/SGB_Commando_SF.png",
+			"graphics/portraits/SGB_Sentry_SF.png",
+			"graphics/portraits/SGB_Veteran_SF.png",
+		],
+		"standard_female":[
+			"graphics/portraits/SGB_Commando_SF.png",
+			"graphics/portraits/SGB_Sentry_SF.png",
+			"graphics/portraits/SGB_Veteran_SF.png",
+		],
+	},
+	"ranks":{
+		"ranks":{
+			"spaceCommander":{"name":"Squad Leader"},
+		},
+		"posts":{
+			"patrolCommander":{"name":"Quench Squad-Leader"},
+			"fleetCommander":{"name":"Quench Squad-Commander"},
+			"baseCommander":{"name":"Quench Squad-Ranking member"},
+			"stationCommander":{"name":"Quench Squad-Stationmaster"},
+			"portmaster":{"name":"Quench Squad-Port Supervisor"},
+			"administrator":{"name":"Quench Squad-Grand Marshal"},
+		},
+	},
+	"voices":{
+		"LOW":{
+			"soldier":10,
+			"spacer":5,
+		},
+		"MEDIUM":{
+			"soldier":10,
+			"official":5,
+			"business":5,
+		},
+		"HIGH":{
+			"soldier":10,
+			"official":5,
+			"business":5,
+		},
+	},
+	"fleetTypeNames":{
+		"smallTrader":"交接联队",
+		"trade":"考察联队",
+		"tradeLiner":"商业联队",
+		"patrolSmall":"游巡联队",
+		"patrolMedium":"风暴联队",
+		"patrolLarge":"淬火联队",
+		"mercScout":"风暴特工队",
+		"mercBountyHunter":"猎手联队",
+		"mercPrivateer":"猎袭联队",
+		"mercPatrol":"打击联队",
+		"mercArmada":"舰队",
+		"taskForce":"特遣联队",
+	},
+},
+
+
+
+
+

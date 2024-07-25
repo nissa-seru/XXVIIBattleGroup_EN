@@ -1,0 +1,14 @@
+{
+	"id":"XXVII_MeltingMold_EnergyLoader_shot",
+	"specClass":"projectile",
+	"spawnType":"PLASMA",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"onHitEffect":"data.weapons.SGB_Energy_Weapon_MeltingMold",
+	"width":50.0,
+	"fadeTime":0.5,
+	#"hitGlowRadius":38,
+	"fringeColor":[218,220,242,200],
+	"coreColor":[109,126,212,255],
+	"passThroughMissiles":true,	
+}

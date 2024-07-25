@@ -1,0 +1,44 @@
+{
+    "displayName": "BountyHunter",
+    "fluxCapacitors": 4,
+    "fluxVents": 0,
+    "goalVariant": false,
+    "hullId": "mora",
+    "hullMods": [
+        "heavyarmor",
+        "safetyoverrides",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "mora_LongWay",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "phasecl",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 004": "sabotpod",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "lightac",
+            }
+        },
+    ],
+    "wings": [
+        "thunder_wing",
+        "thunder_wing",
+        "thunder_wing",
+    ],
+    "modules": [],
+}
