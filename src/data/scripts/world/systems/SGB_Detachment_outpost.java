@@ -321,7 +321,7 @@ public class SGB_Detachment_outpost {
         planet6.getSpec().setCloudColor(new Color(245, 255, 254, 195));
 
         SectorEntityToken STR = system.addCustomEntity("corvus_abandoned_station",
-                "前哨站", "station_side04", "neutral");
+                "Aosnit Abandoned Station", "station_side04", "neutral");
 
         STR.setCircularOrbitPointingDown(system.getEntityById("SGB_planet6"), 45, 300, 30);
         STR.setCustomDescriptionId("SGB_planet6_platform");
@@ -367,7 +367,7 @@ public class SGB_Detachment_outpost {
         planet7.getSpec().setCloudColor(new Color(200, 200, 200, 150));
 
         //为星系生成指定跳跃点
-        JumpPointAPI jumpPoint = Global.getFactory().createJumpPoint("inside_point", "SGB Jump-point");
+        JumpPointAPI jumpPoint = Global.getFactory().createJumpPoint("inside_point", "Aosnit Inner-System Jump Point");
         OrbitAPI orbit = Global.getFactory().createCircularOrbit(planet1, 0, 1000, 30);
         jumpPoint.setOrbit(orbit);
         jumpPoint.setRelatedPlanet(planet1);
@@ -375,7 +375,7 @@ public class SGB_Detachment_outpost {
         system.addEntity(jumpPoint);
 
         //为星系生成指定跳跃点
-        JumpPointAPI jumpPoint2 = Global.getFactory().createJumpPoint("inside_point2", "SGB Jump-point");
+        JumpPointAPI jumpPoint2 = Global.getFactory().createJumpPoint("inside_point2", "Ougest Gravity Well");
         OrbitAPI orbit2 = Global.getFactory().createCircularOrbit(star, 40, 3500, 360);
         jumpPoint2.setOrbit(orbit2);
         jumpPoint2.setRelatedPlanet(planet1);
@@ -394,7 +394,7 @@ public class SGB_Detachment_outpost {
 
         //生成星门
         SectorEntityToken gate = system.addCustomEntity("SGB_gate", // unique id 设置星门id
-                "星门", // name - if null, defaultName from custom_entities.json will be used 设置你星门的名字
+                "Aosnit Gate", // name - if null, defaultName from custom_entities.json will be used 设置你星门的名字
                 "inactive_gate", // type of object, defined in custom_entities.json 设置标签（让系统识别这是个星门）根据custom_entities.json设置
                 null); // faction
 
@@ -402,11 +402,11 @@ public class SGB_Detachment_outpost {
         gate.setCircularOrbit(star, 5, 3080f, 350f);
 
         //设置你星系的永久稳定点建筑
-        SectorEntityToken A = system.addCustomEntity("SGB_A", "中继通讯基座", "comm_relay", "SGB");
+        SectorEntityToken A = system.addCustomEntity(null,null, "comm_relay", "SGB");
         A.setCircularOrbit(star, 180f, 2900f, 365f);
-        SectorEntityToken B = system.addCustomEntity("SGB_B", "中继导航浮标", "nav_buoy", "SGB");
+        SectorEntityToken B = system.addCustomEntity(null,null, "nav_buoy", "SGB");
         B.setCircularOrbit(star, 220f, 2500f, 365f);
-        SectorEntityToken C = system.addCustomEntity("SGB_C", "中继传感器阵列", "sensor_array", "SGB");
+        SectorEntityToken C = system.addCustomEntity(null,null, "sensor_array", "SGB");
         C.setCircularOrbit(star, 240f, 2900f, 365f);
 
     }
