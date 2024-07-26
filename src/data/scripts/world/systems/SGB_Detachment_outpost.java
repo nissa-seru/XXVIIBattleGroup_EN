@@ -72,7 +72,7 @@ public class SGB_Detachment_outpost {
         system.addRingBand(star, "misc", "rings_dust0", 256f, 1, Color.white, 256f, 4000, 120f);
         system.addRingBand(star, "misc", "rings_dust0", 256f, 2, Color.white, 256f, 4100, 160f);
         //行星（势力、圆心、引用、类型；设置星球简介以及归属
-        SectorEntityToken ring = system.addTerrain(Terrain.RING, new BaseRingTerrain.RingParams(600 + 256, 400, null, "尘埃团"));
+        SectorEntityToken ring = system.addTerrain(Terrain.RING, new BaseRingTerrain.RingParams(600 + 256, 400, null, "Limort Accretion Ring"));
         ring.setCircularOrbit(star, 0, 0, 100);
         PlanetAPI planet1 = system.addPlanet(
                 "SGB_planet1", //行星ID
@@ -181,7 +181,7 @@ public class SGB_Detachment_outpost {
         system.addRingBand(star, "misc", "rings_dust0", 256f, 0, Color.white, 256f, 4700, 80f);
         system.addRingBand(star, "misc", "rings_dust0", 256f, 1, Color.white, 256f, 4800, 100f);
         system.addRingBand(star, "misc", "rings_dust0", 256f, 2, Color.white, 256f, 4900, 130f);
-        ring = system.addTerrain(Terrain.RING, new BaseRingTerrain.RingParams(200 + 256, 4800, null, "尘埃团"));
+        ring = system.addTerrain(Terrain.RING, new BaseRingTerrain.RingParams(200 + 256, 4800, null, "Postun Accretion Ring"));
         ring.setCircularOrbit(star, 0, 0, 100);
         //行星（势力、圆心、引用、类型；设置星球简介以及归属
         PlanetAPI planet2 = system.addPlanet(
@@ -339,7 +339,7 @@ public class SGB_Detachment_outpost {
             STR.getMarket().getSubmarket(Submarkets.SUBMARKET_STORAGE).getCargo().addItems(RESOURCES,"organs",71f);
             STR.getMarket().getSubmarket(Submarkets.SUBMARKET_STORAGE).getCargo().addItems(RESOURCES,"drugs",28f);
             STR.getMarket().getSubmarket(Submarkets.SUBMARKET_STORAGE).getCargo().addItems(RESOURCES,"heavy_machinery",55f);
-            STR.getMarket().getSubmarket(Submarkets.SUBMARKET_STORAGE).getCargo().addMothballedShip(FleetMemberType.SHIP, "SGB_Austenite_Assault_In_Campain", "未完全损毁的舰船");
+            STR.getMarket().getSubmarket(Submarkets.SUBMARKET_STORAGE).getCargo().addMothballedShip(FleetMemberType.SHIP, "SGB_Austenite_Assault_In_Campain", "Partially-Damaged Ship");
         }
          /*
           七号行星————————————————————————————————————————————————————————————————————————
