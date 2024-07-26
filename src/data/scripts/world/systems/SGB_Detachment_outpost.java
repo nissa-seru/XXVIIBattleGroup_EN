@@ -389,8 +389,8 @@ public class SGB_Detachment_outpost {
         NebulaEditor editor = new NebulaEditor(plugin);
         float minRadius = plugin.getTileSize() * 2f;
         float radius = system.getMaxRadiusInHyperspace();
-        //editor.clearArc(system.getLocation().x, system.getLocation().y, 0, radius + minRadius * 0.5f, 0, 360f);
-        //editor.clearArc(system.getLocation().x, system.getLocation().y, 0, radius + minRadius, 0, 360f, 0.25f);
+        editor.clearArc(system.getLocation().x, system.getLocation().y, 0, radius + minRadius * 0.5f, 0, 360f);
+        editor.clearArc(system.getLocation().x, system.getLocation().y, 0, radius + minRadius, 0, 360f, 0.25f);
 
         //生成星门
         SectorEntityToken gate = system.addCustomEntity("SGB_gate", // unique id 设置星门id
