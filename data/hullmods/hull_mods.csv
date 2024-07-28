@@ -3,13 +3,13 @@ Shackles Garrison Mobile Theory,SGB_AllForHuman,,0,Shackles Garrison,no_build_in
 
 Increases the zero-flux top speed of ships by %s/%s/%s/%s.
 Enhances missile guidance capability by %s.
-Within the first %s of the ship's peak performance duration, enables zero-flux acceleration bonus when the flux level is below %s/%s/%s/%s.",+机动、幅能；但增大维护需求,graphics/hullmods/SGB_AllForHuman.png
-Shackles Garrison Fighter Theory,XXVII_SpecialWingGroup_Carrier,,0,Shackles Garrison,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.XXVII_SpecialWingGroup_Carrier,This plugin is built-in to all Shackles Garrison carriers.,链戍航母内插,graphics/hullmods/XXVII_SpecialWingGroup_Carrier.png
-Collaborative Disruption Theory,XXVII_SpecialWingGroup_Coop,1,,Shackles Garrison,"no_build_in,SGB_HullMods",,9500,,,,5,5,10,10,data.hullmods.XXVII_SpecialWingGroup_Coop,Collaborative series,协同系列,graphics/hullmods/XXVII_SpecialWingGroup_Coop.png
-Regional Air Control Theory,XXVII_SpecialWingGroup_DogFight,2,,Shackles Garrison,"no_build_in,SGB_HullMods",,10000,,,,5,5,10,10,data.hullmods.XXVII_SpecialWingGroup_DogFight,Air superiority series,制空系列,graphics/hullmods/XXVII_SpecialWingGroup_DogFight.png
-Continuous Strike Theory,XXVII_SpecialWingGroup_Assault,1,,Shackles Garrison,"no_build_in,SGB_HullMods",,10500,,,,5,5,10,10,data.hullmods.XXVII_SpecialWingGroup_Assault,Assault Series,突击系列,graphics/hullmods/XXVII_SpecialWingGroup_Assault.png
+Within the first %s of the ship's peak performance duration, enables zero-flux acceleration bonus when the flux level is below %s/%s/%s/%s.","+mobility, flux; but increases maintenance needs",graphics/hullmods/SGB_AllForHuman.png
+Shackles Garrison Fighter Theory,XXVII_SpecialWingGroup_Carrier,,0,Shackles Garrison,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.XXVII_SpecialWingGroup_Carrier,This plugin is built-in to all Shackles Garrison carriers.,This plugin is built-in to all Shackles Garrison carriers.,graphics/hullmods/XXVII_SpecialWingGroup_Carrier.png
+Collaborative Disruption Theory,XXVII_SpecialWingGroup_Coop,1,,Shackles Garrison,"no_build_in,SGB_HullMods",,9500,,,,5,5,10,10,data.hullmods.XXVII_SpecialWingGroup_Coop,Collaborative series,Collaborative series,graphics/hullmods/XXVII_SpecialWingGroup_Coop.png
+Regional Air Control Theory,XXVII_SpecialWingGroup_DogFight,2,,Shackles Garrison,"no_build_in,SGB_HullMods",,10000,,,,5,5,10,10,data.hullmods.XXVII_SpecialWingGroup_DogFight,Air superiority series,Air superiority series,graphics/hullmods/XXVII_SpecialWingGroup_DogFight.png
+Continuous Strike Theory,XXVII_SpecialWingGroup_Assault,1,,Shackles Garrison,"no_build_in,SGB_HullMods",,10500,,,,5,5,10,10,data.hullmods.XXVII_SpecialWingGroup_Assault,Assault Series,Assault Series,graphics/hullmods/XXVII_SpecialWingGroup_Assault.png
 #chassis_storage,,,,,,,,,,,,,,,,,,
-Quenching Squad,SGB_QuenchGroup,,0,Shackles Garrison,no_build_in,,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.FighterChassisStorage,"The wolf follows you under the shadow, and the squadron will always follow you.",淬火联队,graphics/hullmods/SGB_QuenchGroup.png
+Quenching Squad,SGB_QuenchGroup,,0,Shackles Garrison,no_build_in,,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.FighterChassisStorage,"The wolf follows you under the shadow, and the squadron will always follow you.",Quench Group,graphics/hullmods/SGB_QuenchGroup.png
 ,,,,,,,,,,,,,,,,,,
 #Austenite
 Modular Quenching Core,SGB_Austenite_Core,,0,Shackles Garrison,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.SGB_Austenite_Core,"This ship is a specialized frigate-class combat vessel of the 27th Battlegroup, capable of supporting certain exclusive weapons with its specialized internal weapon modules. Additionally, the system of this ship has been tuned to a certain extent, and pushing it further may require additional costs.
@@ -75,18 +75,18 @@ All LPCs not created by the ship system will immediately be destroyed.
 
 On activation, has the following effect:
 Immediately replenish lost strikecrafts.",,graphics/hullmods/SGB_Austenite_System_Wing.png
-代码实现: 僚机计划探测1,SGB_Austenite_System_Wingman_CORED1,,0,Shackles Garrison,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.SGB_Austenite_System_Wingman_CORED,"The modular system of the body can be changed according to requirements and have the following impacts:
+System Module: Wingman 1,SGB_Austenite_System_Wingman_CORED1,,0,Shackles Garrison,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.SGB_Austenite_System_Wingman_CORED,"The modular system of the body can be changed according to requirements and have the following impacts:
 SGB_Austenite_System_Wingman_CORED
-无论如何你也不应该看见这个，这个是制作mod时的探测用船插，无任何效果
-一号位",,graphics/hullmods/SGB_Austenite_Core.png
-代码实现: 僚机计划探测2,SGB_Austenite_System_Wingman_CORED2,,0,Shackles Garrison,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.SGB_Austenite_System_Wingman_CORED,"The modular system of the body can be changed according to requirements and have the following impacts:
+
+YOU SHOULD NOT SEE THIS (USED FOR DEV ONLY)",,graphics/hullmods/SGB_Austenite_Core.png
+System Module: Wingman 2,SGB_Austenite_System_Wingman_CORED2,,0,Shackles Garrison,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.SGB_Austenite_System_Wingman_CORED,"The modular system of the body can be changed according to requirements and have the following impacts:
 SGB_Austenite_System_Wingman_CORED
-无论如何你也不应该看见这个，这个是制作mod时的探测用船插，无任何效果
-二号位",,graphics/hullmods/SGB_Austenite_Core.png
-代码实现: 僚机计划探测3,SGB_Austenite_System_Wingman_CORED3,,0,Shackles Garrison,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.SGB_Austenite_System_Wingman_CORED,"The modular system of the body can be changed according to requirements and have the following impacts:
+
+YOU SHOULD NOT SEE THIS (USED FOR DEV ONLY)",,graphics/hullmods/SGB_Austenite_Core.png
+System Module: Wingman 3,SGB_Austenite_System_Wingman_CORED3,,0,Shackles Garrison,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.SGB_Austenite_System_Wingman_CORED,"The modular system of the body can be changed according to requirements and have the following impacts:
 SGB_Austenite_System_Wingman_CORED
-无论如何你也不应该看见这个，这个是制作mod时的探测用船插，无任何效果
-三号位",,graphics/hullmods/SGB_Austenite_Core.png
+
+YOU SHOULD NOT SEE THIS (USED FOR DEV ONLY)",,graphics/hullmods/SGB_Austenite_Core.png
 ,,,,,,,,,,,,,,,,,,
 Wingman: Strike,SGB_Austenite_System_Wing_Attack,,0,Shackles Garrison,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.SGB_Austenite_System_Wing_Attack,"Built-in modular system; cycle between alternatives by removing this hullmod. On activation, has the following effect:
 

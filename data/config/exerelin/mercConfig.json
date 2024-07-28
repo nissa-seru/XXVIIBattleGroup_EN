@@ -9,7 +9,7 @@
 		#Poisoning-毒杀小队=====
 		#Aloof-上风小队=====
 		"arrayItegratedUnits":{
-			"name":"Aloof}Squad",
+			"name":"{Aloof}Squad",
 			"desc":"Mercenary teams commissioned by the Shackles Garrison Army primarily for unsavory tasks to be conducted at arms' length. Known for their lack of scruples, these experienced mercenaries tend to be excluded from consideration for tasks requiring a modicum of respectability, resulting in most employment offers being for jobs that other mercenaries refuse to be associated with. Known as 'upwind' or 'aloof' teams, they leave very little standing in the aftermath of completing their assigned tasks.",
 			"logo":"graphics/factions/SGB_SF.png",
 			"shipNamePrefix":"ALB",
@@ -21,7 +21,7 @@
 			"ships":[
 				["SGB_Wiesios_Assault", "SGB_Quench_Clo_ACE"],
 				["SGB_Wiesios_Assault", "SGB_Quench_Fri_Commando"],
-				["SGB_Quench_Clo_ACE", "SGB_Quench_Fri_Commando"],
+				["SGB_Quench_Clo_ACE", "SGB_Quench_Fri_Commando"]
 			],
 			"extraFP":15,
 			"doctrineSizeOverride":2,	# overrides faction doctrine setting for ship size
