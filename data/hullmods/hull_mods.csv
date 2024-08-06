@@ -120,7 +120,7 @@ Hull Module: Peritectoid Reaction,SGB_Austenite_Head_Assault,,0,Shackles Garriso
 
 Increases ballistic weapon damage by %s, 
 Increases rate of fire for ballistic weapons by %s;
-Increases shield efficency by %s, 
+Increases shield efficiency by %s, 
 Decreases range of ballistic and missile weapons by %s.",,graphics/hullmods/SGB_Austenite_Head_Assault.png
 ,,,,,,,,,,,,,,,,,,
 Engine Module: Periodic,SGB_Austenite_Engine_Wing_Unstable,,0,Shackles Garrison,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.SGB_Austenite_Engine_Wing_Unstable,"Built-in modular hullmod; cycle between alternatives by removing this hullmod.
@@ -134,5 +134,5 @@ If the ship's system cannot store multiple uses (ie charges), this hullmod enabl
 Increases the ship's max CR by %s.",,graphics/hullmods/SGB_Austenite_Engine_Wing_BackLoad.png
 Engine Module: Number Coordination,SGB_Austenite_Engine_Wing_Polarization,,0,Shackles Garrison,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.SGB_Austenite_Engine_Wing_Polarization,"Built-in modular hullmod; cycle between alternatives by removing this hullmod.
 
-During peak operation time, increases the ship's maneueverability by up to %s, increasing with the ship's total time in peak operation during this combat;
+During peak operation time, increases the ship's maneuverability by up to %s, increasing with the ship's total time in peak operation during this combat;
 During peak operation time, significantly reduces damage to engines.",,graphics/hullmods/SGB_Austenite_Engine_Wing_Polarization.png

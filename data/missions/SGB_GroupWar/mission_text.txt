@@ -21,4 +21,4 @@ In the end, the Hegemony won this war but paid a heavy price - both in terms of 
 You can activate in-game BGM by entering a campaign, immediately exiting the campaign, and then re entering the campaign without switching campaigns
 Just click on the SGB-test-Campaign to close BGM - this method is relatively stable.
 ——————
-[Whether the campaign is completed or not will determine the number and status of debris in the former capital of SGB and core star domain Tia]
+[Whether the campaign is completed or not will determine the number and status of debris in the former capital of SGB and core system Tia]
